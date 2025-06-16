@@ -25,7 +25,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Create New Project2" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Create New Project3">
+      <change afterPath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessing.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumberGuessingGame/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumberGuessingGame/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,18 +44,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AripaStudio"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AripaStudio&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AripaStudio/SimpleProjectOfClang.git",
-    "accountId": "a6d2ea16-419c-402a-ad8d-4bb5ed4df46a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AripaStudio/SimpleProjectOfClang.git&quot;,
+    &quot;accountId&quot;: &quot;a6d2ea16-419c-402a-ad8d-4bb5ed4df46a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2025" />
@@ -70,6 +76,7 @@
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
     "cf.first.check.clang-format": "false",
@@ -84,13 +91,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="" />
@@ -99,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1750064049894</updated>
       <workItem from="1750064051358" duration="414000" />
-      <workItem from="1750064573866" duration="4717000" />
+      <workItem from="1750064573866" duration="4768000" />
+      <workItem from="1750088070366" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -181,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750072560706</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create New Project3">
+      <option name="closed" value="true" />
+      <created>1750072961006</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750072961006</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +223,7 @@
     <MESSAGE value="Start New Project" />
     <MESSAGE value="Create New Project" />
     <MESSAGE value="Create New Project2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create New Project2" />
+    <MESSAGE value="Create New Project3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create New Project3" />
   </component>
 </project>

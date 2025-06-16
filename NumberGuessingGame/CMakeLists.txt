@@ -3,4 +3,6 @@ project(NumberGuessingGame C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(NumberGuessingGame main.c)
+add_executable(NumberGuessingGame main.c
+        NumberGuessing.c
+        NumberGuessing.h)
