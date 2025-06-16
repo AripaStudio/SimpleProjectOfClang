@@ -17,7 +17,6 @@ enum StatusEnum {
 int get_random_number(int MaxNumber);
 void EditDataPlayer(enum StatusEnum status);
 void Help_menu();
-bool SaveDataManager();
 bool MainGame();
 void ShowInfo();
 

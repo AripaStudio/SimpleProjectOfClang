@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include  <time.h>
 
 #include "NumberGuessing.h"
 
 int main(void) {
-
+    srand(time(NULL));
     printf("Welcome to the Number Guessing Program\n");
 
-    char inputUser[5];
+    char inputUser[10];
     //exit
     //info
     //start
@@ -16,10 +17,11 @@ int main(void) {
     Help_menu();
     while (true)
     {
-        printf("Please enter (Start , Exit , Info )");
+        printf("\n Please enter (Start , Exit , Info )");
         if (fgets(inputUser, sizeof(inputUser), stdin) == NULL)
         {
-            inputUser[strcspn(inputUser, "\n")] = 0;
+            inputUser[strcspn(inputUser, "\n")] = '\0';
+
             if (strcmp(inputUser, "exit") == 0) {
                 break;
             } else if (strcmp(inputUser, "info") == 0) {

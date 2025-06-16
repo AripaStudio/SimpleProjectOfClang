@@ -52,7 +52,7 @@ void Help_menu()
 {
     printf("Welcome to this game! To play, simply enter a number between 1 and 100.\n");
     printf("If the number you entered is greater than the random number, you will be notified, and similarly for a smaller number.\n");
-    printf("For Start Game : Start");
+    printf("For Start Game : Start\n");
     printf("To exit the game: exit\n");
     printf("To see your game information: info\n");
 }
