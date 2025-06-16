@@ -8,6 +8,6 @@
 
 
 int main(void) {
-    printf("Hello, World!\n");
+    printf("Hello, World! Welcome To Aripa Studio Github\n");
     return 0;
 }
