@@ -3,4 +3,6 @@ project(SimpleCalculator C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(SimpleCalculator main.c)
+add_executable(SimpleCalculator main.c
+        calculator.c
+        calculator.h)
