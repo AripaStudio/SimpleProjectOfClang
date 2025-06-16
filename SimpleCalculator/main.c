@@ -1,31 +1,38 @@
 #include <stdio.h>
 #include "calculator.h"
 #include <stdbool.h>
+#include <stdlib.h>
 
 
-
-
-int Help()
+void Help()
 {
-    printf("Welcome to Simple C Calculator!\n");
     printf("\nChoose an operation:\n");
     printf("1. Addition (+)\n");
     printf("2. Subtraction (-)\n");
     printf("3. Multiplication (*)\n");
     printf("4. Division (/)\n");
-    printf("Enter your choice (1-4): ");
-    return 0;
+    printf("5. Show Help Menu \n");
+    printf("6. for Exit \n");
+    printf("Enter your choice (1-6): ");
 }
 
 int main(void) {
+    int choice;
+    printf("Welcome to Simple C Calculator!\n");
+
+    printf("Enter Choice  1,2,3,4 or for help 5 for exit : 6");
+    scanf("%d", &choice);
+
+    if (choice < 1 || choice > 6) {
+
+    }
+
     Help();
     while (true)
     {
         int num1, num2;
-        int choice;
 
-        printf("Enter Choice  1,2,3,4 or for help 5");
-        scanf("%d", &choice);
+
 
 
         printf("Welcome to Simple C Calculator!\n");
@@ -58,6 +65,8 @@ int main(void) {
             case 5:
                 Help();
                 break;
+            case 6:
+                exit(0);
             default:
                 printf("Invalid choice!\n");
                 break;
