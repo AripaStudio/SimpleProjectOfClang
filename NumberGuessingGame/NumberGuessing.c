@@ -40,9 +40,6 @@ void EditDataPlayer(enum StatusEnum status)
             break;
         case none:
             break;
-        default:
-            printf("Error in Edit Data Player ");
-            break;
 
 
     }

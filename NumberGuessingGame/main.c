@@ -18,9 +18,11 @@ int main(void) {
     while (true)
     {
         printf("\n Please enter (Start , Exit , Info )");
-        if (fgets(inputUser, sizeof(inputUser), stdin) == NULL)
+        if (fgets(inputUser, sizeof(inputUser), stdin) != NULL)
         {
             inputUser[strcspn(inputUser, "\n")] = '\0';
+
+            string_to_lower(inputUser);
 
             if (strcmp(inputUser, "exit") == 0) {
                 break;

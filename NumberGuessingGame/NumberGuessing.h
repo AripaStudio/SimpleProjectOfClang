@@ -20,6 +20,7 @@ void Help_menu();
 bool MainGame();
 void ShowInfo();
 
+void string_to_lower(char *str);
 
 extern int gamesPlayedCount;
 extern int playerLossesCount;

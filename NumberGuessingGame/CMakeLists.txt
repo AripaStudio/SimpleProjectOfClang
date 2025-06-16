@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(NumberGuessingGame main.c
         NumberGuessing.c
-        NumberGuessing.h)
+        NumberGuessing.h
+        CL_Manager.c)

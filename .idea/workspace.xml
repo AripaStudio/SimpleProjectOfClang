@@ -25,8 +25,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Test?">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix?">
+      <change afterPath="$PROJECT_DIR$/NumberGuessingGame/CL_Manager.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumberGuessingGame/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessing.c" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessing.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessing.h" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessing.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NumberGuessingGame/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/main.c" afterDir="false" />
@@ -99,7 +101,7 @@
       <updated>1750064049894</updated>
       <workItem from="1750064051358" duration="414000" />
       <workItem from="1750064573866" duration="4768000" />
-      <workItem from="1750088070366" duration="2210000" />
+      <workItem from="1750088070366" duration="2848000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -205,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750093951780</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fix?">
+      <option name="closed" value="true" />
+      <created>1750094587077</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750094587077</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +251,7 @@
     <MESSAGE value="Create New Project3" />
     <MESSAGE value="Start" />
     <MESSAGE value="Test?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test?" />
+    <MESSAGE value="Fix?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix?" />
   </component>
 </project>
