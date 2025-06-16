@@ -25,9 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="tEST?">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleCalculator/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleCalculator/main.c" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Start New Project">
+      <change beforePath="$PROJECT_DIR$/SimpleToDoList/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750064049894</updated>
       <workItem from="1750064051358" duration="414000" />
-      <workItem from="1750064573866" duration="3227000" />
+      <workItem from="1750064573866" duration="4245000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -152,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750069652617</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="END project Two">
+      <option name="closed" value="true" />
+      <created>1750070455091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750070455091</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Start New Project">
+      <option name="closed" value="true" />
+      <created>1750070810548</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750070810548</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +196,8 @@
     <MESSAGE value="add New Project" />
     <MESSAGE value="Add New Project and Fix One" />
     <MESSAGE value="tEST?" />
-    <option name="LAST_COMMIT_MESSAGE" value="tEST?" />
+    <MESSAGE value="END project Two" />
+    <MESSAGE value="Start New Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start New Project" />
   </component>
 </project>
