@@ -25,9 +25,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Start New Project">
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Create New Project2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750064049894</updated>
       <workItem from="1750064051358" duration="414000" />
-      <workItem from="1750064573866" duration="4245000" />
+      <workItem from="1750064573866" duration="4717000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -167,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750070810548</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create New Project">
+      <option name="closed" value="true" />
+      <created>1750072549513</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750072549513</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create New Project2">
+      <option name="closed" value="true" />
+      <created>1750072560706</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750072560706</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +212,8 @@
     <MESSAGE value="tEST?" />
     <MESSAGE value="END project Two" />
     <MESSAGE value="Start New Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start New Project" />
+    <MESSAGE value="Create New Project" />
+    <MESSAGE value="Create New Project2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create New Project2" />
   </component>
 </project>
