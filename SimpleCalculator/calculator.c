@@ -9,15 +9,15 @@ int add(int a , int b) {
     return a + b;
 }
 
-int sub(int a , int b) {
+int subtract(int a , int b) {
     return a - b;
 }
 
-int mul(int a , int b) {
+int multiply(int a , int b) {
     return a * b;
 }
 
-double div(int a , int b) {
+double divide(int a , int b) {
     if (a == 0) {
         return 0.0;
     }

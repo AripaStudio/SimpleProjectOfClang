@@ -17,30 +17,54 @@ void Help()
 }
 
 int main(void) {
-    int choice;
+
     printf("Welcome to Simple C Calculator!\n");
 
-    printf("Enter Choice  1,2,3,4 or for help 5 for exit : 6");
-    scanf("%d", &choice);
 
-    if (choice < 1 || choice > 6) {
-
-    }
 
     Help();
     while (true)
     {
         int num1, num2;
+        int choice;
 
 
 
+        printf("Enter Choice  1,2,3,4 or for help 5 for exit : 6");
+        scanf("%d", &choice);
 
-        printf("Welcome to Simple C Calculator!\n");
-        printf("Enter first number: ");
-        scanf("%d", &num1); // Read first integer
 
-        printf("Enter second number: ");
-        scanf("%d", &num2); // Read second integer
+        while (getchar() != '\n');
+
+
+        switch (choice) {
+            case 5: {
+                printf("--- Displaying menu again ---\n");
+                continue;
+            }
+            case 6 : {
+                printf("Exiting Calculator. Goodbye!\n");
+                exit(0);
+            }
+            default:
+                break;
+
+
+        }
+
+        if (choice >= 1 && choice <= 4) {
+            printf("Enter first number: ");
+            scanf("%d", &num1);
+            while (getchar() != '\n');
+
+            printf("Enter second number: ");
+            scanf("%d", &num2);
+            while (getchar() != '\n');
+        } else {
+            printf("Invalid choice! Please enter a number between 1 and 6.\n");
+            printf("\n");
+            continue;
+        }
 
 
         switch (choice) {
@@ -48,31 +72,26 @@ int main(void) {
                 printf("Result: %d + %d = %d\n", num1, num2, add(num1, num2));
                 break;
             case 2:
-                printf("Result: %d - %d = %d\n", num1, num2, sub(num1, num2));
+                printf("Result: %d - %d = %d\n", num1, num2, subtract(num1, num2));
                 break;
             case 3:
-                printf("Result: %d * %d = %d\n", num1, num2, mul(num1, num2));
+                printf("Result: %d * %d = %d\n", num1, num2, multiply(num1, num2));
                 break;
             case 4: {
-                double div_result = div(num1, num2);
+                double div_result = divide(num1, num2);
                 if (num2 == 0) {
                     printf("Error: Division by zero!\n");
                 } else {
-                    printf("Result: %d / %d = %.2f\n", num1, num2, div_result); // %.2f for 2 decimal places
+                    printf("Result: %d / %d = %.2f\n", num1, num2, div_result);
                 }
                 break;
             }
-            case 5:
-                Help();
-                break;
-            case 6:
-                exit(0);
-            default:
-                printf("Invalid choice!\n");
-                break;
         }
-        return 0;
+        printf("\n");
+
+
     }
+    return 0;
 }
 
 
