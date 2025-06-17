@@ -25,11 +25,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Add New Project for example2">
-      <change afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ListManager.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Complete One">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumberGuessingGame/CL_Manager.c" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/CL_Manager.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleToDoList/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/main.c" afterDir="false" />
@@ -103,7 +101,7 @@
       <workItem from="1750064051358" duration="414000" />
       <workItem from="1750064573866" duration="4768000" />
       <workItem from="1750088070366" duration="2884000" />
-      <workItem from="1750158748536" duration="2395000" />
+      <workItem from="1750158748536" duration="3633000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -257,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750159486960</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Complete One">
+      <option name="closed" value="true" />
+      <created>1750166269528</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750166269528</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +304,7 @@
     <MESSAGE value="Add New Project" />
     <MESSAGE value="Add New Project for example" />
     <MESSAGE value="Add New Project for example2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add New Project for example2" />
+    <MESSAGE value="Complete One" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete One" />
   </component>
 </project>

@@ -6,6 +6,6 @@
 
 void string_to_lower(char *str) {
     for (int i = 0; str[i]; i++) {
-        str[i] = tolower((unsigned char)str[i]); // Cast to unsigned char is good practice
+        str[i] = tolower((unsigned char)str[i]);
     }
 }

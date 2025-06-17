@@ -3,10 +3,13 @@
 //
 
 #include "ToDoListManager.h"
+
+#include <ctype.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 
 void Show_Help() {
@@ -15,6 +18,10 @@ void Show_Help() {
     printf("For Remove Data : remove");
     printf("ShowAllData : showall");
     printf("search a data : search");
+    printf("For Edit a Table : edit");
+    printf("for show This : help");
+    printf("for Exit : exit");
+    printf("-----Commands-----\n");
 }
 
 bool addTask_inputList(ToDoListManager *manager, ToDoListStruct newTask){
@@ -103,8 +110,80 @@ bool AddTask(ToDoListManager *manager , char name[50],char title[100],char descr
 }
 
 
-bool Main_menuManager() {
-    return false;
+void string_to_lower(char *str) {
+    for (int i = 0; str[i]; i++) {
+        str[i] = tolower((unsigned char)str[i]);
+    }
+}
+
+int convert_string_to_int(const char *str, int *result) {
+    long val;
+    char *endptr;
+    errno = 0;
+
+    val = strtol(str, &endptr, 10);
+
+    if (errno == ERANGE) {
+        fprintf(stderr, "Error: Value '%s' out of long int range.\n", str);
+        return -1;
+    }
+    if (endptr == str) {
+        fprintf(stderr, "Error: No digits found in '%s'.\n", str);
+        return -2;
+    }
+    while (isspace((unsigned char)*endptr)) {
+        endptr++;
+    }
+    if (*endptr != '\0') {
+        fprintf(stderr, "Error: Extra characters after number in '%s'. Remaining: '%s'\n", str, endptr);
+        return -3;
+    }
+    if (val > INT_MAX || val < INT_MIN) {
+        fprintf(stderr, "Error: Value '%s' out of int range.\n", str);
+        return -4;
+    }
+    *result = (int)val;
+    return 0;
+}
+
+bool Main_menuManager(ToDoListStruct *manager) {
+    Show_Help();
+
+    char input[50];
+    char inputIndex[9];
+
+    while (true) {
+
+        if (fgets(input, sizeof(input) , stdin) != NULL) {
+            input[strcspn(input, "\n")] = 0;
+            string_to_lower(input);
+
+            if (input == "add") {
+
+            }else if (input == "remove") {
+                if (fgets(inputIndex , sizeof(input) , stdin) != NULL) {
+                    inputIndex[strcspn(inputIndex, "\n")] = 0;
+                    removeTask(manager, inputIndex);
+                }
+            }else if (input == "edit") {
+                printf("Later");
+            }else if (input == "showall") {
+               ShowData(manager);
+            }else if (input == "search") {
+                printf("Please Enter Id (Index) For Serach");
+                if (fgets(inputIndex , sizeof(input) , stdin) != NULL) {
+                    inputIndex[strcspn(inputIndex, "\n")] = 0;
+                    getTask(manager, inputIndex);
+                }
+            }else if (input == "help") {
+                Show_Help();
+            }else if (input == "exit") {
+                return false;
+            }else {
+                printf("Please Enter a Valid Command : help");
+            }
+        }
+    }
 }
 
 

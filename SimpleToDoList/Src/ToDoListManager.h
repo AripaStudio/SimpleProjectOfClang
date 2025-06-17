@@ -27,6 +27,11 @@ ToDoListManager* CreateList();
 void destroyTodoListManager(ToDoListManager *manager);
 static bool ensureCapacity(ToDoListManager *manager);
 
+
+bool AddTask(ToDoListManager *manager , char name[50],char title[100],char description[256],char dueDate[20],bool isCompleted);
+
+void string_to_lower(char *str);
+
 ToDoListStruct* getTask(ToDoListManager *manager , int index);
 
 void Show_Help();
