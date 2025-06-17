@@ -25,10 +25,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Start">
-      <change afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Add New Project for example2">
+      <change afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ListManager.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleToDoList/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleToDoList/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +103,7 @@
       <workItem from="1750064051358" duration="414000" />
       <workItem from="1750064573866" duration="4768000" />
       <workItem from="1750088070366" duration="2884000" />
-      <workItem from="1750158748536" duration="332000" />
+      <workItem from="1750158748536" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -229,7 +233,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750158782317</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add New Project">
+      <option name="closed" value="true" />
+      <created>1750159196969</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1750159196969</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add New Project for example">
+      <option name="closed" value="true" />
+      <created>1750159364419</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1750159364419</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add New Project for example2">
+      <option name="closed" value="true" />
+      <created>1750159486960</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1750159486960</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +295,9 @@
     <MESSAGE value="Fix?" />
     <MESSAGE value="END NumberGuessing game" />
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Add New Project" />
+    <MESSAGE value="Add New Project for example" />
+    <MESSAGE value="Add New Project for example2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add New Project for example2" />
   </component>
 </project>

@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(SimpleToDoList main.c
         Src/ToDoListManager.c
-        Src/ToDoListManager.h)
+        Src/ToDoListManager.h
+        Src/ListManager.c)
