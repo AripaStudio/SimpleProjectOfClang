@@ -25,7 +25,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END NumberGuessing game" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Start">
+      <change afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleToDoList/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,27 +68,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Main",
-    "last_opened_file_path": "D:/3ClionPorject/SimpleProjectOfClang",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/3ClionPorject/SimpleProjectOfClang&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="" />
@@ -95,6 +99,7 @@
       <workItem from="1750064051358" duration="414000" />
       <workItem from="1750064573866" duration="4768000" />
       <workItem from="1750088070366" duration="2884000" />
+      <workItem from="1750158748536" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -216,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750095401857</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Start">
+      <option name="closed" value="true" />
+      <created>1750158782317</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750158782317</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,10 +263,10 @@
     <MESSAGE value="Create New Project" />
     <MESSAGE value="Create New Project2" />
     <MESSAGE value="Create New Project3" />
-    <MESSAGE value="Start" />
     <MESSAGE value="Test?" />
     <MESSAGE value="Fix?" />
     <MESSAGE value="END NumberGuessing game" />
-    <option name="LAST_COMMIT_MESSAGE" value="END NumberGuessing game" />
+    <MESSAGE value="Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start" />
   </component>
 </project>
