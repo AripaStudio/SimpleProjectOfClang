@@ -25,13 +25,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Complete One">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumberGuessingGame/CL_Manager.c" beforeDir="false" afterPath="$PROJECT_DIR$/NumberGuessingGame/CL_Manager.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +95,7 @@
       <workItem from="1750064051358" duration="414000" />
       <workItem from="1750064573866" duration="4768000" />
       <workItem from="1750088070366" duration="2884000" />
-      <workItem from="1750158748536" duration="3633000" />
+      <workItem from="1750158748536" duration="3653000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -263,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750166269528</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="END">
+      <option name="closed" value="true" />
+      <created>1750169541748</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1750169541748</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +307,7 @@
     <MESSAGE value="Add New Project for example" />
     <MESSAGE value="Add New Project for example2" />
     <MESSAGE value="Complete One" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete One" />
+    <MESSAGE value="END" />
+    <option name="LAST_COMMIT_MESSAGE" value="END" />
   </component>
 </project>
