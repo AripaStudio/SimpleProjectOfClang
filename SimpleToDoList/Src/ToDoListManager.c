@@ -152,9 +152,11 @@ bool Main_menuManager(ToDoListStruct *manager) {
     char input[50];
     char inputIndex[9];
 
-    while (true) {
+    while (true)
+        {
 
-        if (fgets(input, sizeof(input) , stdin) != NULL) {
+        if (fgets(input, sizeof(input) , stdin) != NULL)
+            {
             input[strcspn(input, "\n")] = 0;
             string_to_lower(input);
 
@@ -177,7 +179,8 @@ bool Main_menuManager(ToDoListStruct *manager) {
                 }
             }else if (input == "help") {
                 Show_Help();
-            }else if (input == "exit") {
+            }else if (input == "exit")
+            {
                 return false;
             }else {
                 printf("Please Enter a Valid Command : help");

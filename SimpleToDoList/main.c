@@ -10,7 +10,10 @@ int main(void) {
      }
 
     while (true) {
-        break;
+        bool check = Main_menuManager(manager);
+        if (check == false) {
+            break;
+        }
     }
 
 

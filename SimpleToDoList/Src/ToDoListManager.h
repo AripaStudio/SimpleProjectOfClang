@@ -30,6 +30,10 @@ static bool ensureCapacity(ToDoListManager *manager);
 
 bool AddTask(ToDoListManager *manager , char name[50],char title[100],char description[256],char dueDate[20],bool isCompleted);
 
+bool Main_menuManager(ToDoListStruct *manager);
+int convert_string_to_int(const char *str, int *result);
+
+
 void string_to_lower(char *str);
 
 ToDoListStruct* getTask(ToDoListManager *manager , int index);
