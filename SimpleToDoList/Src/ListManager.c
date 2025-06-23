@@ -27,7 +27,7 @@ ToDoListManager* CreateList() {
     return manager;
 }
 
-static bool ensureCapacity(ToDoListManager *manager) {
+bool ensureCapacity(ToDoListManager *manager) {
     if (manager->count == manager->capacity) {
         int newCapacity = manager->capacity * 2;
         printf("New capacity = %d\n", newCapacity);

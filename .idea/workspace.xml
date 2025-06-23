@@ -25,7 +25,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +98,9 @@
       <workItem from="1750064573866" duration="4768000" />
       <workItem from="1750088070366" duration="2884000" />
       <workItem from="1750158748536" duration="3684000" />
+      <workItem from="1750325737391" duration="657000" />
+      <workItem from="1750425107169" duration="45000" />
+      <workItem from="1750692713669" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -275,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750169557280</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27">
+      <option name="closed" value="true" />
+      <created>1750326389363</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750326389363</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +329,7 @@
     <MESSAGE value="Add New Project for example2" />
     <MESSAGE value="Complete One" />
     <MESSAGE value="END" />
-    <option name="LAST_COMMIT_MESSAGE" value="END" />
+    <MESSAGE value="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27" />
   </component>
 </project>
