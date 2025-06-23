@@ -154,7 +154,6 @@ bool Main_menuManager(ToDoListStruct *manager) {
 
     while (true)
         {
-
         printf("You Can Type : ");
         if (fgets(input, sizeof(input) , stdin) != NULL)
             {
@@ -162,6 +161,42 @@ bool Main_menuManager(ToDoListStruct *manager) {
             string_to_lower(input);
 
             if (strcmp(input , "add") == 0) {
+                char name[50];
+                char title[100];
+                char description[256];
+                char dueDate[20];
+                char completedInput[10];
+                bool isCompleted;
+
+                printf("Enter name: ");
+                if (fgets(name, sizeof(name), stdin) != NULL) {
+                    name[strcspn(name, "\n")] = 0;
+                }
+
+                printf("Enter title: ");
+                if (fgets(title, sizeof(title), stdin) != NULL) {
+                    title[strcspn(title, "\n")] = 0;
+                }
+
+                printf("Enter description: ");
+                if (fgets(description, sizeof(description), stdin) != NULL) {
+                    description[strcspn(description, "\n")] = 0;
+                }
+
+                printf("Enter due date (e.g., YYYY-MM-DD): ");
+                if (fgets(dueDate, sizeof(dueDate), stdin) != NULL) {
+                    dueDate[strcspn(dueDate, "\n")] = 0;
+                }
+
+                printf("Is it completed? (yes/no): ");
+                if (fgets(completedInput, sizeof(completedInput), stdin) != NULL) {
+                    completedInput[strcspn(completedInput, "\n")] = 0;
+                    string_to_lower(completedInput);
+
+                    isCompleted = (strcmp(completedInput, "yes") == 0);
+                }
+                    printf("Task added .\n");
+                    AddTask(manager , name , title , description , dueDate , isCompleted);
 
             }else if (input == "remove") {
                 if (fgets(inputIndex , sizeof(input) , stdin) != NULL) {
@@ -173,10 +208,28 @@ bool Main_menuManager(ToDoListStruct *manager) {
             }else if (strcmp(input , "showall") == 0) {
                ShowData(manager);
             }else if (strcmp(input , "search") == 0) {
-                printf("Please Enter Id (Index) For Serach");
-                if (fgets(inputIndex , sizeof(input) , stdin) != NULL) {
+                printf("Please Enter ID (Index) for search (0-1-2-3-...): ");
+
+                if (fgets(inputIndex , sizeof(inputIndex) , stdin) != NULL)
+                    {
                     inputIndex[strcspn(inputIndex, "\n")] = 0;
-                    getTask(manager, inputIndex);
+                    int taskIndex;
+                    int Convert = convert_string_to_int(inputIndex, &taskIndex);
+                    if (Convert == 0)
+                    {
+                        ToDoListStruct* foundTask = getTask(manager, taskIndex);
+                        if (foundTask != NULL)
+                        {
+                            printf("Task Found: Name: %s, Title: %s, Due Date: %s\n",
+                            foundTask->name, foundTask->title, foundTask->dueDate);
+                        }else
+                        {
+                            printf("Task not found or invalid index.\n");
+                        }
+                    }else {
+                        printf("Invalid input for index. Please enter a number.\n");
+                    }
+
                 }
             }else if (strcmp(input , "help") == 0) {
                 Show_Help();

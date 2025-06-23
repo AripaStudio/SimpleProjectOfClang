@@ -25,7 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="I'm Back(:">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix Input User">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,7 @@
       <workItem from="1750158748536" duration="3684000" />
       <workItem from="1750325737391" duration="657000" />
       <workItem from="1750425107169" duration="45000" />
-      <workItem from="1750692713669" duration="1409000" />
+      <workItem from="1750692713669" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -294,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750693768044</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fix Input User">
+      <option name="closed" value="true" />
+      <created>1750694487792</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1750694487792</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +348,7 @@
     <MESSAGE value="END" />
     <MESSAGE value="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27" />
     <MESSAGE value="I'm Back(:" />
-    <option name="LAST_COMMIT_MESSAGE" value="I'm Back(:" />
+    <MESSAGE value="Fix Input User" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Input User" />
   </component>
 </project>
