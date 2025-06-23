@@ -14,13 +14,13 @@
 
 void Show_Help() {
     printf("-----Commands-----\n");
-    printf("For Add Data : add");
-    printf("For Remove Data : remove");
-    printf("ShowAllData : showall");
-    printf("search a data : search");
-    printf("For Edit a Table : edit");
-    printf("for show This : help");
-    printf("for Exit : exit");
+    printf("For Add Data : add\n");
+    printf("For Remove Data : remove\n");
+    printf("ShowAllData : showall\n");
+    printf("search a data : search\n");
+    printf("For Edit a Table : edit\n");
+    printf("for show This : help\n");
+    printf("for Exit : exit\n");
     printf("-----Commands-----\n");
 }
 
@@ -155,35 +155,36 @@ bool Main_menuManager(ToDoListStruct *manager) {
     while (true)
         {
 
+        printf("You Can Type : ");
         if (fgets(input, sizeof(input) , stdin) != NULL)
             {
             input[strcspn(input, "\n")] = 0;
             string_to_lower(input);
 
-            if (input == "add") {
+            if (strcmp(input , "add") == 0) {
 
             }else if (input == "remove") {
                 if (fgets(inputIndex , sizeof(input) , stdin) != NULL) {
                     inputIndex[strcspn(inputIndex, "\n")] = 0;
                     removeTask(manager, inputIndex);
                 }
-            }else if (input == "edit") {
+            }else if (strcmp(input , "edit") == 0) {
                 printf("Later");
-            }else if (input == "showall") {
+            }else if (strcmp(input , "showall") == 0) {
                ShowData(manager);
-            }else if (input == "search") {
+            }else if (strcmp(input , "search") == 0) {
                 printf("Please Enter Id (Index) For Serach");
                 if (fgets(inputIndex , sizeof(input) , stdin) != NULL) {
                     inputIndex[strcspn(inputIndex, "\n")] = 0;
                     getTask(manager, inputIndex);
                 }
-            }else if (input == "help") {
+            }else if (strcmp(input , "help") == 0) {
                 Show_Help();
-            }else if (input == "exit")
+            }else if (strcmp(input , "exit") == 0)
             {
                 return false;
             }else {
-                printf("Please Enter a Valid Command : help");
+                printf("Please Enter a Valid Command : help \n");
             }
         }
     }

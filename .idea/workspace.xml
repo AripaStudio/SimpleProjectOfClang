@@ -25,8 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="I'm Back(:">
+      <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <workItem from="1750158748536" duration="3684000" />
       <workItem from="1750325737391" duration="657000" />
       <workItem from="1750425107169" duration="45000" />
-      <workItem from="1750692713669" duration="848000" />
+      <workItem from="1750692713669" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -286,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750326389363</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="I'm Back(:">
+      <option name="closed" value="true" />
+      <created>1750693768044</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750693768044</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +338,7 @@
     <MESSAGE value="Complete One" />
     <MESSAGE value="END" />
     <MESSAGE value="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27" />
+    <MESSAGE value="I'm Back(:" />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm Back(:" />
   </component>
 </project>
