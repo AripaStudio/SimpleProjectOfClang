@@ -267,7 +267,7 @@ bool Main_menuManager(ToDoListManager *manager) { // Corrected parameter type
                 if (fgets(inputIndexBuffer, sizeof(inputIndexBuffer) , stdin) != NULL) {
                     inputIndexBuffer[strcspn(inputIndexBuffer, "\n")] = 0;
                     int indexToEdit;
-                    if (convert_string_to_int(inputIndexBuffer, &indexToEdit) == 0) {
+                    if (convert_string_to_int(inputIndexBuffer, &indexToEdit) == 0){
                         ToDoListStruct* taskToEdit = getTask(manager, indexToEdit);
                         if (taskToEdit != NULL) {
                             ToDoListStruct updatedTask;

@@ -25,12 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ListManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ListManager.c" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Complete SimpleToDoList">
       <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/Src/ToDoListManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoList/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoList/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <workItem from="1750325737391" duration="657000" />
       <workItem from="1750425107169" duration="45000" />
       <workItem from="1750692713669" duration="2328000" />
-      <workItem from="1750858381987" duration="778000" />
+      <workItem from="1750858381987" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -323,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750696075536</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Complete SimpleToDoList">
+      <option name="closed" value="true" />
+      <created>1750861679138</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1750861679138</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +374,7 @@
     <MESSAGE value="Fix Input User" />
     <MESSAGE value="Fix TodoListSimple C and END" />
     <MESSAGE value="END" />
-    <option name="LAST_COMMIT_MESSAGE" value="END" />
+    <MESSAGE value="Complete SimpleToDoList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete SimpleToDoList" />
   </component>
 </project>
