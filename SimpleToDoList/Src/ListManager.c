@@ -10,20 +10,19 @@
 ToDoListManager* CreateList() {
     ToDoListManager *manager = (ToDoListManager*)malloc(sizeof(ToDoListManager));
     if (manager == NULL) {
-        printf("Memory allocation error\n");
+        perror("Memory allocation error for ToDoListManager");
         return NULL;
     }
 
-
-    manager->tasks = (ToDoListStruct*) malloc(STARTING_SIZE  * sizeof(ToDoListStruct));
+    manager->tasks = (ToDoListStruct*)malloc(STARTING_SIZE * sizeof(ToDoListStruct));
     if (manager->tasks == NULL) {
-        perror("Memory allocation error");
-        free(manager);
+        perror("Memory allocation error for tasks array");
+        free(manager); // Free the manager itself if tasks allocation fails
         return NULL;
     }
 
     manager->count = 0;
-    manager->capacity = STARTING_SIZE ;
+    manager->capacity = STARTING_SIZE;
     return manager;
 }
 
@@ -31,9 +30,9 @@ bool ensureCapacity(ToDoListManager *manager) {
     if (manager->count == manager->capacity) {
         int newCapacity = manager->capacity * 2;
         printf("New capacity = %d\n", newCapacity);
-        ToDoListStruct *temp = (ToDoListStruct*) realloc(manager->tasks, newCapacity * sizeof(ToDoListStruct));
+        ToDoListStruct *temp = (ToDoListStruct*)realloc(manager->tasks, newCapacity * sizeof(ToDoListStruct));
         if (temp == NULL) {
-            perror("Memory allocation error : in ensureCapacity");
+            perror("Memory allocation error: in ensureCapacity");
             return false;
         }
         manager->tasks = temp;
@@ -41,13 +40,14 @@ bool ensureCapacity(ToDoListManager *manager) {
         printf("New capacity = %d\n", manager->capacity);
     }
     return true;
-
 }
-
 
 void destroyTodoListManager(ToDoListManager *manager) {
     if (manager != NULL) {
-        free(manager->tasks);
+        if (manager->tasks != NULL) {
+            free(manager->tasks);
+            manager->tasks = NULL;
+        }
         free(manager);
         printf("ToDoListManager destroyed\n");
     }
