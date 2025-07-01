@@ -22,15 +22,12 @@ namespace SimpleToDoListCS
 
         public int GetSumNewID()
         {
-            int maxId = TodoList_list.Max(item => item.ID);
-            if (maxId > 0)
-            {
-                return maxId + 1;
-            }
-            else
+            if (!TodoList_list.Any())
             {
                 return 1;
             }
+            int maxId = TodoList_list.Max(item => item.ID);
+            return maxId + 1;
         }
 
         public void Add_LIST(CL_List list)
@@ -47,23 +44,21 @@ namespace SimpleToDoListCS
 
         public bool Add(string TaskName, string Titel, string Description, string dueDate, bool IsComplete)
         {
-            int ID = GetSumNewID();
-            if (ID <= 0)
+            if (string.IsNullOrWhiteSpace(TaskName))
             {
-                Console.WriteLine("GetSumNewID is 0");
+                Console.WriteLine("Task Name Is empty. Please Try Again!");
+                return false;
             }
 
-            bool checkID = TodoList_list.Any(I => I.TaskName == TaskName && I.ID == ID);
-            if (!checkID)
+            int ID = GetSumNewID();
+
+            if (TodoList_list.Any(t => t.TaskName.Equals(TaskName, StringComparison.OrdinalIgnoreCase))) 
             {
-                Console.WriteLine("The task name and ID are duplicated. (please try again with new NameTask)");
+                Console.WriteLine("A task with this name already exists. Please try again with a new name.");
                 return false;
             }
-            if (TaskName == null)
-            {
-                Console.WriteLine("Name Task Is empty Please Try Again!");
-                return false;
-            }
+
+
 
             CL_List list = new CL_List();
             list.ID = ID;
@@ -74,21 +69,16 @@ namespace SimpleToDoListCS
             list.IsComplete = IsComplete;
 
             Add_LIST(list);
+            Console.WriteLine("Task added successfully.");
             return true;
         }
 
         public bool Remove(int id)
         {
-            if (id <= 0)
-            {
-                Console.WriteLine("Please Enter a ID Valid (1-2-3-4-5...)");
-                return false;
-            }
 
-            var RemoveList = TodoList_list.FirstOrDefault(i => i.ID == id);
             try
             {
-                TodoList_list.Remove(RemoveList);
+                TodoList_list.Clear();
                 Console.WriteLine("Successfully completed.");
                 return true;
             }
@@ -134,121 +124,85 @@ namespace SimpleToDoListCS
 
             Console.WriteLine($"Edit Task Name: (Press Enter to keep current: {editList.TaskName})");
             string inputTaskName = Console.ReadLine();
-
+            if (!string.IsNullOrWhiteSpace(inputTaskName))
+            {
+                editList.TaskName = inputTaskName;
+            }
             Console.WriteLine($"Edit Title: (Press Enter to keep current: {editList.Title})");
             string inputTitle = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(inputTitle))
+            {
+                editList.Title = inputTitle;
+            }
+            Console.WriteLine($"Edit Description: (Press Enter to keep current: {editList.Description})");
+            string inputDescription = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(inputDescription))
+            {
+                editList.Description = inputDescription;
+            }
 
-            Console.WriteLine($"Edit Description: (Press Enter to keep current: {editList.Title})");
-            string inputDescription = Console.ReadLine(); 
-
-            Console.WriteLine($"Edit DueData: (Press Enter to keep current: {editList.Title})");
+            Console.WriteLine($"Edit DueData: (Press Enter to keep current: {editList.dueDate})");
             string inputDueData = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(inputDueData))
+            {
+                editList.dueDate = inputDueData;
+            }
 
-            Console.WriteLine($"Edit IsComplete (please Enter (yes/no): (Press Enter to keep current: {editList.Title})");
+
+            Console.WriteLine($"Edit IsComplete (please Enter (yes/no): (Press Enter to keep current: {editList.IsComplete})");
             string inputIsComplete = Console.ReadLine().ToLower();
-            bool isCompleteBool;
-            if (inputIsComplete == "yes")
+            if (!string.IsNullOrWhiteSpace(inputTitle))
             {
-                isCompleteBool = true;
-            }
-            else
-            {
-                isCompleteBool = false;
-            }
-
-            string[] inputArray = [inputTaskName, inputTitle, inputDescription, inputDueData, inputIsComplete];
-            var checkArray = checkIsNullOrWhiteSpaceArrayForCl_List(inputArray);
-
-            bool checkCreateNewList = checkArray.Any(c => c.Equals(1));
-            int numForeach = 0;
-
-            if (checkCreateNewList)
-            {
-                foreach (var ch in checkArray)
+                if (inputIsComplete == "yes")
                 {
-                    numForeach ++;
-                    if (ch == 1)
-                    {
-                        switch (numForeach)
-                        {
-                            case 1:
-                                editList.TaskName = inputTaskName;
-                                break;
-                            case 2:
-                                editList.Title = inputTitle;
-                                break;
-                            case 3:
-                                editList.Description = inputDescription;
-                                break;
-                            case 4:
-                                editList.dueDate = inputDueData;
-                                break;
-                            case 5:
-                                editList.IsComplete = isCompleteBool;
-                                break;
-                            default:
-                                break;
-                        }
-                    }
+                    editList.IsComplete = true;
+                }
+                else if (inputIsComplete == "no") 
+                {
+                    editList.IsComplete = false;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input for 'Is Complete'. Keeping the current status.");
                 }
 
-                
             }
 
 
+
+
+
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Task updated successfully!");
             return true;
-        }
-
-        public int[] checkIsNullOrWhiteSpaceArrayForCl_List(string[] input)
-        {
-            if (input == null)
-            {
-                return new int[] { };
-            }
-
-            int[] output = [0, 0, 0, 0, 0];
-            int number = -1;
-
-            foreach (var txt in input)
-            {
-                number++;
-                if (!string.IsNullOrWhiteSpace(txt))
-                {
-                    output[number] += 1;
-                }
-            }
-
-            return output;
-
         }
 
         public bool showall()
         {
+            if (!TodoList_list.Any())
+            {
+                Console.WriteLine("No tasks to display.");
+                return false;
+            }
             try
             {
                 foreach (var list in TodoList_list)
                 {
-                    Console.WriteLine("ID : ", list.ID);
-                    Console.WriteLine("Name : ", list.TaskName);
-                    Console.WriteLine("Title : ", list.Title);
-                    Console.WriteLine("Description : ", list.Description);
-                    Console.WriteLine("dueData : ", list.dueDate);
-                    if (list.IsComplete == true)
-                    {
-                        Console.WriteLine("IsComplete(true) = yes");
-                    }
-                    else
-                    {
-                        Console.WriteLine("IsComplete(false) = no");
-                    }
+                    Console.WriteLine($"ID: {list.ID}");
+                    Console.WriteLine($"Name: {list.TaskName}"); 
+                    Console.WriteLine($"Title: {list.Title}"); 
+                    Console.WriteLine($"Description: {list.Description}");
+                    Console.WriteLine($"Due Date: {list.dueDate}"); 
+                    Console.WriteLine($"Is Complete: {(list.IsComplete ? "yes" : "no")}"); 
+                    Console.WriteLine("-----------------------------------");
                 }
+                return true; 
             }
             catch (Exception e)
             {
-                Console.WriteLine("error in Show all Data in List : " + Environment.NewLine + e);
+                Console.WriteLine("Error in Show all Data in List : " + Environment.NewLine + e);
                 return false;
             }
-            return true;
         }
 
         public CL_List SearchReturnList(int id)
@@ -256,15 +210,14 @@ namespace SimpleToDoListCS
             if (id <= 0)
             {
                 Console.WriteLine("Please Enter a ID Valid (1-2-3-4-5...)");
-                return new CL_List();
+                return null;
             }
             CL_List list = new CL_List();
             list = TodoList_list.FirstOrDefault(i => i.ID == id);
             if (list == null)
             {
-                Console.WriteLine("This List Is empty Please Try Again");
-                Console.WriteLine("Or Input in is Not Valid");
-                return new CL_List();
+                Console.WriteLine("Task not found or list is empty. Please Try Again or check input.");
+                return null;
             }
 
             return list;
@@ -287,19 +240,13 @@ namespace SimpleToDoListCS
                 return false;
             }
 
-            Console.WriteLine("ID : ", list.ID);
-            Console.WriteLine("Name : ", list.TaskName);
-            Console.WriteLine("Title : ", list.Title);
-            Console.WriteLine("Description : ", list.Description);
-            Console.WriteLine("dueData : ", list.dueDate);
-            if (list.IsComplete == true)
-            {
-                Console.WriteLine("IsComplete(true) = yes");
-            }
-            else
-            {
-                Console.WriteLine("IsComplete(false) = no");
-            }
+            Console.WriteLine($"ID: {list.ID}");
+            Console.WriteLine($"Name: {list.TaskName}");
+            Console.WriteLine($"Title: {list.Title}");
+            Console.WriteLine($"Description: {list.Description}");
+            Console.WriteLine($"Due Date: {list.dueDate}");
+            Console.WriteLine($"Is Complete: {(list.IsComplete ? "yes" : "no")}");
+            Console.WriteLine("-----------------------------------");
 
 
             return true;

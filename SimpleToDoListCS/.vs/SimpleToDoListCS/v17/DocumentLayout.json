@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleToDoListCS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistcs\\simpletodolistcs\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|solutionrelative:simpletodolistcs\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistcs\\simpletodolistcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|solutionrelative:simpletodolistcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistcs\\simpletodolistcs\\todolistmanagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|solutionrelative:simpletodolistcs\\todolistmanagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistcs\\simpletodolistcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|solutionrelative:simpletodolistcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistcs\\simpletodolistcs\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7AC34F-004A-4D29-8083-D3280DA49A47}|SimpleToDoListCS\\SimpleToDoListCS.csproj|solutionrelative:simpletodolistcs\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ListManager.cs",
               "DocumentMoniker": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleToDoListCS\\SimpleToDoListCS\\ListManager.cs",
               "RelativeDocumentMoniker": "SimpleToDoListCS\\ListManager.cs",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleToDoListCS\\SimpleToDoListCS\\ListManager.cs",
               "RelativeToolTip": "SimpleToDoListCS\\ListManager.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAuwJUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T13:25:25.179Z",
               "EditorCaption": ""
@@ -65,21 +65,23 @@
               "RelativeDocumentMoniker": "SimpleToDoListCS\\ToDoListManagar.cs",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleToDoListCS\\SimpleToDoListCS\\ToDoListManagar.cs",
               "RelativeToolTip": "SimpleToDoListCS\\ToDoListManagar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwGkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T13:24:49.948Z"
+              "WhenOpened": "2025-06-27T13:24:49.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleToDoListCS\\SimpleToDoListCS\\Program.cs",
               "RelativeDocumentMoniker": "SimpleToDoListCS\\Program.cs",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleToDoListCS\\SimpleToDoListCS\\Program.cs",
               "RelativeToolTip": "SimpleToDoListCS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T13:21:57.64Z"
+              "WhenOpened": "2025-06-27T13:21:57.64Z",
+              "EditorCaption": ""
             }
           ]
         }
