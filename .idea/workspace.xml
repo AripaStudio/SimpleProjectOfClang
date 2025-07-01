@@ -25,13 +25,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/FileContentIndex/8c441e5c-0258-437d-b059-c32f61ec4a57.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/ListManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/ListManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfoInputs.cache" afterDir="false" />
-    </list>
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix AND end" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +104,7 @@
       <workItem from="1751030495544" duration="786000" />
       <workItem from="1751130685096" duration="73000" />
       <workItem from="1751280218126" duration="158000" />
-      <workItem from="1751378319631" duration="1793000" />
+      <workItem from="1751378319631" duration="2451000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -376,7 +370,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751042950743</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="START">
+      <option name="closed" value="true" />
+      <created>1751385617555</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1751385617555</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix AND end">
+      <option name="closed" value="true" />
+      <created>1751389106603</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1751389106603</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,8 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="One Project Hello World!" />
-    <MESSAGE value="add New Project" />
     <MESSAGE value="Add New Project and Fix One" />
     <MESSAGE value="tEST?" />
     <MESSAGE value="END project Two" />
@@ -424,6 +432,8 @@
     <MESSAGE value="Add Project" />
     <MESSAGE value="Add Project and Edit" />
     <MESSAGE value="END" />
-    <option name="LAST_COMMIT_MESSAGE" value="END" />
+    <MESSAGE value="START" />
+    <MESSAGE value="Fix AND end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix AND end" />
   </component>
 </project>
