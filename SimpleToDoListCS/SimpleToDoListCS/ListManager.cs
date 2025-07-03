@@ -19,6 +19,7 @@ namespace SimpleToDoListCS
             TodoList_list = new List<CL_List>();
         }
 
+        
 
         public int GetSumNewID()
         {
