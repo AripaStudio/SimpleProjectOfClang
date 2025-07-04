@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleTodoListDlang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistdlang\\simpletodolistdlang\\todolistmanager.d||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|solutionrelative:simpletodolistdlang\\todolistmanager.d||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistdlang\\simpletodolistdlang\\listmanager.d||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|solutionrelative:simpletodolistdlang\\listmanager.d||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|d:\\3clionporject\\simpleprojectofclang\\simpletodolistdlang\\simpletodolistdlang\\simpletodolistdlang.d||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleTodoListDlang\\simpletodolistdlang\\todolistmanager.d||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|solutionrelative:simpletodolistdlang\\todolistmanager.d||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleTodoListDlang\\simpletodolistdlang\\simpletodolistdlang.d||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B6B19F93-0F96-48EA-9A24-F18A7677159F}|SimpleTodoListDlang\\SimpleTodoListDlang.visualdproj|solutionrelative:simpletodolistdlang\\simpletodolistdlang.d||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ListManager.d",
               "DocumentMoniker": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleTodoListDlang\\SimpleTodoListDlang\\ListManager.d",
               "RelativeDocumentMoniker": "SimpleTodoListDlang\\ListManager.d",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleTodoListDlang\\SimpleTodoListDlang\\ListManager.d",
               "RelativeToolTip": "SimpleTodoListDlang\\ListManager.d",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAwFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAjwJ4AAAAVAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB2SURBVDhPY6AI/P//H8oiHzBCaTD49u0bXhO5uLhQ1IMAhgG7nK2hPFTgtvcomEY3hAlKEwQwg9FdidMAkI0wDAPYXIfXBSDngjCyIeiAaC/gAoPcAFCI44taECA6HYAAtrRAtBewaQYBDBdAmVgBuubBABgYACEWMaIfzt/LAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "WhenOpened": "2025-07-03T13:13:58.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TodoListManager.d",
               "DocumentMoniker": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleTodoListDlang\\SimpleTodoListDlang\\TodoListManager.d",
               "RelativeDocumentMoniker": "SimpleTodoListDlang\\TodoListManager.d",
@@ -67,8 +67,7 @@
               "RelativeToolTip": "SimpleTodoListDlang\\TodoListManager.d",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB2SURBVDhPY6AI/P//H8oiHzBCaTD49u0bXhO5uLhQ1IMAhgG7nK2hPFTgtvcomEY3hAlKEwQwg9FdidMAkI0wDAPYXIfXBSDngjCyIeiAaC/gAoPcAFCI44taECA6HYAAtrRAtBewaQYBDBdAmVgBuubBABgYACEWMaIfzt/LAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "WhenOpened": "2025-07-03T13:10:09.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T13:10:09.787Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "SimpleTodoListDlang\\SimpleTodoListDlang.d",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB2SURBVDhPY6AI/P//H8oiHzBCaTD49u0bXhO5uLhQ1IMAhgG7nK2hPFTgtvcomEY3hAlKEwQwg9FdidMAkI0wDAPYXIfXBSDngjCyIeiAaC/gAoPcAFCI44taECA6HYAAtrRAtBewaQYBDBdAmVgBuubBABgYACEWMaIfzt/LAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "WhenOpened": "2025-07-03T12:57:14.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T12:57:14.716Z"
             }
           ]
         }

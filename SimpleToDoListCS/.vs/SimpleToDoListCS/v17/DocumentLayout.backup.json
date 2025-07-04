@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "SimpleToDoListCS\\ListManager.cs",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\SimpleToDoListCS\\SimpleToDoListCS\\ListManager.cs",
               "RelativeToolTip": "SimpleToDoListCS\\ListManager.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAYwB0AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAuwJ4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T13:25:25.179Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "SimpleToDoListCS\\ToDoListManagar.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T13:24:49.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T13:24:49.948Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "SimpleToDoListCS\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T13:21:57.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T13:21:57.64Z"
             }
           ]
         }

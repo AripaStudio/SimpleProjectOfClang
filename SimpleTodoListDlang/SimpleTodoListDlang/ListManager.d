@@ -5,6 +5,7 @@ import std.algorithm;
 import std.conv;
 import std.range;
 import std.string;
+import std.array;
 
 class CL_List
 {
@@ -93,6 +94,83 @@ class CL_ListManager
 
 		return true;
 	}
+	
+
+	bool Remove(string TaskName)
+	{
+		if (stdAP.IsNullOrWhiteSpace(TaskName))
+		{
+			writeln("Task Name is Emtpy. Please Try Again");
+			return false;
+		}		
+		
+		try
+		{
+			
+			todolist = todolist.filter!(f => f.TaskName == TaskName).array;
+			writeln("Task Deleted successfully.");
+			return true;
+		}catch(Exception e)
+		{
+			writeln("error in Remove List || error : \n" , e);
+			return false;
+		}
+	}
+
+	bool removeAll()
+	{
+		try
+		{
+			todolist.length = 0;
+			writeln("Task Deleted all successfully.");
+			return true;
+		}catch(Exception e)
+		{
+			writeln("error in Remove All List || error : \n" , e);
+			return false;
+		}
+	}
+
+	bool Edit(string TaskName)
+	{
+		return true;
+	}
+
+	bool showall()
+	{
+		if(todolist.length == 0)
+		{
+			writeln("No Tasks to disply.");
+			return false;
+		}
+		try
+		{
+			foreach(list; todolist)
+			{
+				writefln("ID : %d" , list.ID);
+				writefln("Name: %s" , list.TaskName);
+				writefln("Title: %s" , list.Title);
+				writefln("Description: %s" , list.Description);
+				writefln("dueData: %s" , list.dueData);
+				writefln("Is Complete: %s" , list.IsComplete);
+				writeln("---------------------------------");
+			}
+			return true;
+		}catch(Exception e)
+		{
+			writeln("Error in show all Data in list : \n" , e);
+			return false;
+		}
+	}
+
+	bool SearchAndShow(string TaskName)
+	{
+		return true;
+	}
+
+
+
+
 
 	
 
@@ -105,7 +183,7 @@ static class stdAP
 		True,
 		False,
 		Null
-	}
+	}	
 
 	static NullableTypesBool checkTaskNameIsexists(CL_List[] list , string tn)
 	{

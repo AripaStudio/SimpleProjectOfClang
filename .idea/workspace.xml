@@ -25,16 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/FileContentIndex/3952c5d3-5216-4f95-a7c4-a0058cc1b380.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/FileContentIndex/84e1700f-3344-45c5-8938-d535d2f4213c.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/.vs/SimpleToDoListCS/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/ListManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/ListManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleToDoListCS/SimpleToDoListCS/obj/Debug/net8.0/SimpleToDoListCS.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,7 @@
       <workItem from="1751130685096" duration="73000" />
       <workItem from="1751280218126" duration="158000" />
       <workItem from="1751378319631" duration="2810000" />
-      <workItem from="1751547387269" duration="1185000" />
+      <workItem from="1751547387269" duration="1843000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -405,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751389461638</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Start AND END">
+      <option name="closed" value="true" />
+      <created>1751557742558</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1751557742558</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add New Project and Fix One" />
     <MESSAGE value="tEST?" />
     <MESSAGE value="END project Two" />
     <MESSAGE value="Start New Project" />
@@ -453,6 +452,7 @@
     <MESSAGE value="START" />
     <MESSAGE value="Fix AND end" />
     <MESSAGE value="END" />
-    <option name="LAST_COMMIT_MESSAGE" value="END" />
+    <MESSAGE value="Start AND END" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start AND END" />
   </component>
 </project>

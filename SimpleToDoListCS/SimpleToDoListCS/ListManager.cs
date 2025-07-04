@@ -76,11 +76,9 @@ namespace SimpleToDoListCS
 
         public bool Remove(int id)
         {
-
             try
             {
-                TodoList_list.Clear();
-                Console.WriteLine("Successfully completed.");
+                TodoList_list.RemoveAll(i => i.ID == id);
                 return true;
             }
             catch (Exception e)
@@ -96,7 +94,8 @@ namespace SimpleToDoListCS
         {
             try
             {
-                TodoList_list.RemoveAll(task => task.ID >= 0);
+                TodoList_list.Clear();
+                Console.WriteLine("Successfully completed.");
                 return true;
             }
             catch (Exception e)
