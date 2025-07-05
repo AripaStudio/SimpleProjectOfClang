@@ -1,0 +1,49 @@
+<html><head><meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+</head><body><pre>
+<table width=100% bgcolor=#CFCFE5><tr><td>
+	<font face=arial size=+3>Build Log</font>
+</table>
+<table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Building x64\Debug\SimpleTodoListDlang.exe
+</font></table>
+<table width=100% bgcolor=#EFEFE5><tr><td><font face=arial size=+1>
+Command Line
+</font></table>
+set PATH=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\bin\HostX86\x86;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE;C:\Program Files (x86)\Windows Kits\10\bin;C:\D\dmd2\windows\bin;%PATH%
+set DMD_LIB=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\lib\x64;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64
+set VCINSTALLDIR=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\
+set VCTOOLSINSTALLDIR=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\
+set VSINSTALLDIR=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\
+set WindowsSdkDir=C:\Program Files (x86)\Windows Kits\10\
+set WindowsSdkVersion=10.0.22621.0
+set UniversalCRTSdkDir=C:\Program Files (x86)\Windows Kits\10\
+set UCRTVersion=10.0.22621.0
+&quot;C:\Program Files (x86)\VisualD\pipedmd.exe&quot; -deps x64\Debug\SimpleTodoListDlang.dep dmd -debug -m64 -g -gf -X -Xf&quot;x64\Debug\SimpleTodoListDlang.json&quot; -c -of&quot;x64\Debug\SimpleTodoListDlang.obj&quot; ListManager.d SimpleTodoListDlang.d TodoListManager.d
+if %errorlevel% neq 0 goto reportError
+
+set LIB=C:\D\dmd2\windows\bin\..\lib64
+echo. &gt; D:\3ClionPorject\SimpleProjectOfClang\SimpleTodoListDlang\SimpleTodoListDlang\x64\Debug\SimpleTodoListDlang.link.rsp
+echo &quot;x64\Debug\SimpleTodoListDlang.obj&quot; /OUT:&quot;x64\Debug\SimpleTodoListDlang.exe&quot; user32.lib  &gt;&gt; D:\3ClionPorject\SimpleProjectOfClang\SimpleTodoListDlang\SimpleTodoListDlang\x64\Debug\SimpleTodoListDlang.link.rsp
+echo kernel32.lib  &gt;&gt; D:\3ClionPorject\SimpleProjectOfClang\SimpleTodoListDlang\SimpleTodoListDlang\x64\Debug\SimpleTodoListDlang.link.rsp
+echo legacy_stdio_definitions.lib /LIBPATH:&quot;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\lib\x64&quot; /LIBPATH:&quot;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x64&quot; /LIBPATH:&quot;C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64&quot; /DEBUG /PDB:&quot;x64\Debug\SimpleTodoListDlang.pdb&quot; /INCREMENTAL:NO /NOLOGO /NODEFAULTLIB:libcmt libcmtd.lib /SUBSYSTEM:CONSOLE &gt;&gt; D:\3ClionPorject\SimpleProjectOfClang\SimpleTodoListDlang\SimpleTodoListDlang\x64\Debug\SimpleTodoListDlang.link.rsp
+&quot;C:\Program Files (x86)\VisualD\mb2utf16.exe&quot; D:\3ClionPorject\SimpleProjectOfClang\SimpleTodoListDlang\SimpleTodoListDlang\x64\Debug\SimpleTodoListDlang.link.rsp
+
+&quot;C:\Program Files (x86)\VisualD\pipedmd.exe&quot; -msmode -deps x64\Debug\SimpleTodoListDlang.lnkdep &quot;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\bin\HostX86\x86\link.exe&quot; @D:\3ClionPorject\SimpleProjectOfClang\SimpleTodoListDlang\SimpleTodoListDlang\x64\Debug\SimpleTodoListDlang.link.rsp
+if %errorlevel% neq 0 goto reportError
+if not exist &quot;x64\Debug\SimpleTodoListDlang.exe&quot; (echo &quot;x64\Debug\SimpleTodoListDlang.exe&quot; not created! &amp;&amp; goto reportError)
+
+goto noError
+
+:reportError
+set ERR=%ERRORLEVEL%
+set DISPERR=%ERR%
+if %ERR% LSS -65535 set DISPERR=0x%=EXITCODE%
+echo Building x64\Debug\SimpleTodoListDlang.exe failed (error code %DISPERR%)!
+exit /B %ERR%
+
+:noError
+<table width=100% bgcolor=#EFEFE5><tr><td><font face=arial size=+1>
+Output
+</font></table>
+
+</body></html>

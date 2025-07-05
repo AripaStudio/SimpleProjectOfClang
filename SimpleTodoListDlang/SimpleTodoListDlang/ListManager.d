@@ -43,7 +43,7 @@ class CL_ListManager
 		{
 			return 1;
 		}
-		auto maxID = todolist.length;
+		auto maxID = (todolist.length) + 1;
 		int IdInt = to!int(maxID);
 		return IdInt;
 	}
@@ -106,10 +106,18 @@ class CL_ListManager
 		
 		try
 		{
+			auto initialLength = todolist.length;
 			
-			todolist = todolist.filter!(f => f.TaskName == TaskName).array;
-			writeln("Task Deleted successfully.");
-			return true;
+			todolist = todolist.filter!(f => f.TaskName != TaskName).array;
+			if(todolist.length < initialLength )
+			{
+				writeln("Task deleted successfully.");
+				return true;
+			}else
+			{
+				writeln("No task found with that name to delete.");
+                return false;
+			}						
 		}catch(Exception e)
 		{
 			writeln("error in Remove List || error : \n" , e);
@@ -175,7 +183,7 @@ class CL_ListManager
 		}
 
 		writefln("Edit IsComplete (please Enter (yes/no): (Press Enter to keep current: %s" , editList.IsComplete);
-		string inputIsComplete = readln.chomp;
+		string inputIsComplete = readln.chomp.toLower();
 		if(!stdAP.IsNullOrWhiteSpace(inputIsComplete))
 		{
 			if(inputIsComplete == "yes")
@@ -266,7 +274,9 @@ static class stdAP
 	{
 		True,
 		False,
-		Null
+		Null,
+		Valid,
+		NotValid
 	}	
 
 	static NullableTypesBool checkTaskNameIsexists(CL_List[] list , string tn)
@@ -292,56 +302,62 @@ static class stdAP
 		}	
 		return NullableTypesBool.False;
 	}
-		
+
 	static CL_List FindList_Todolist(string TaskName , CL_List[] lists)
 	{
-		CL_List output = new CL_List(-1 , "" , "" , "" , "" , false);
+		CL_List nll = new CL_List(-1 , "" , "" , "" , "" , false);
 		if(IsNullOrWhiteSpace(TaskName))
-		{	
-			return output;
+		{  
+			return nll;
 		}
 		if(lists.length == 0)
 		{
-			return output;
+			return nll;
 		}
 		foreach(list; lists)
 		{
 			if(list.TaskName == TaskName)
 			{
-				output.ID = list.ID;
-				output.TaskName = list.TaskName;
-				output.Title = list.Title;
-				output.Description = list.Description;
-				output.dueData = list.dueData;
-				output.IsComplete = list.IsComplete;
+				return list;
 				break;
 			}
-		}
-		if(output.ID == -1)
-		{
-			writeln("Error in FindListTodolist");
-			return output;
-		}
-		return output;
+		}    
+		return nll;
 	}
-	
+
 	
 
 	static bool IsNullOrWhiteSpace(string text)
 	{
-		if(text == null || text == "")
+		if(text is null)
 		{
 			return true;
-		}
-		auto output = true;
-		foreach(char a ; text)
+		}		
+		foreach(char c; text)
 		{
-			if(a != ' ' && a != '\t' && a != '\n')
+			if(c != ' ' && c != '\t' && c != '\n' && c != '\r')
 			{
-				output = false;
+				return  false;
 			}				
 			
 		}
-		return output;
+		return true;
 	}
+	//(((:
+	static NullableTypesBool DeleteWhiteSpaceOtherCharacter(string text)
+	{
+		if(text is null)
+		{
+			return NullableTypesBool.Null;
+		}
+		auto output = text.strip();
+		if(!IsNullOrWhiteSpace(output))
+		{
+			return NullableTypesBool.Valid;	
+		}else
+		{
+			return NullableTypesBool.NotValid;
+		}
+	}
+	
 }

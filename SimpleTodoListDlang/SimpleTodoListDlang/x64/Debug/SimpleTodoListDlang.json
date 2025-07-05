@@ -1,0 +1,545 @@
+[
+ {
+  "name" : "ListManager",
+  "kind" : "module",
+  "file" : "ListManager.d",
+  "members" : [
+   {
+    "name" : "std.stdio",
+    "kind" : "import",
+    "line" : 3,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "std.algorithm",
+    "kind" : "import",
+    "line" : 4,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "std.conv",
+    "kind" : "import",
+    "line" : 5,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "std.range",
+    "kind" : "import",
+    "line" : 6,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "std.string",
+    "kind" : "import",
+    "line" : 7,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "std.array",
+    "kind" : "import",
+    "line" : 8,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "CL_List",
+    "kind" : "class",
+    "protection" : "public",
+    "line" : 10,
+    "char" : 1,
+    "members" : [
+     {
+      "name" : "ID",
+      "kind" : "variable",
+      "protection" : "public",
+      "line" : 12,
+      "char" : 6,
+      "deco" : "i",
+      "offset" : 16
+     },
+     {
+      "name" : "TaskName",
+      "kind" : "variable",
+      "protection" : "public",
+      "line" : 13,
+      "char" : 9,
+      "deco" : "Aya",
+      "offset" : 24
+     },
+     {
+      "name" : "Title",
+      "kind" : "variable",
+      "protection" : "public",
+      "line" : 14,
+      "char" : 9,
+      "deco" : "Aya",
+      "offset" : 40
+     },
+     {
+      "name" : "Description",
+      "kind" : "variable",
+      "protection" : "public",
+      "line" : 15,
+      "char" : 9,
+      "deco" : "Aya",
+      "offset" : 56
+     },
+     {
+      "name" : "dueData",
+      "kind" : "variable",
+      "protection" : "public",
+      "line" : 16,
+      "char" : 9,
+      "deco" : "Aya",
+      "offset" : 72
+     },
+     {
+      "name" : "IsComplete",
+      "kind" : "variable",
+      "protection" : "public",
+      "line" : 17,
+      "char" : 7,
+      "deco" : "b",
+      "offset" : 88
+     },
+     {
+      "name" : "this",
+      "kind" : "constructor",
+      "protection" : "public",
+      "line" : 19,
+      "char" : 2,
+      "deco" : "FiAyaQdQfQhbZC11ListManager7CL_List",
+      "originalType" : "(int id, string taskName, string title, string description, string dueDate, bool isComplete)",
+      "parameters" : [
+       {
+        "name" : "id",
+        "deco" : "i"
+       },
+       {
+        "name" : "taskName",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "title",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "description",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "dueDate",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "isComplete",
+        "deco" : "b"
+       }
+      ],
+      "endline" : 26,
+      "endchar" : 5
+     }
+    ]
+   },
+   {
+    "name" : "todolist",
+    "kind" : "variable",
+    "protection" : "public",
+    "line" : 29,
+    "char" : 11,
+    "deco" : "AC11ListManager7CL_List"
+   },
+   {
+    "name" : "static this",
+    "kind" : "static constructor",
+    "protection" : "public",
+    "line" : 31,
+    "char" : 1,
+    "storageClass" : [
+     "static"
+    ],
+    "deco" : "FZv",
+    "endline" : 34,
+    "endchar" : 1
+   },
+   {
+    "name" : "CL_ListManager",
+    "kind" : "class",
+    "protection" : "public",
+    "line" : 37,
+    "char" : 1,
+    "members" : [
+     {
+      "name" : "GetSumNewID",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 40,
+      "char" : 6,
+      "deco" : "FZi",
+      "endline" : 49,
+      "endchar" : 2
+     },
+     {
+      "name" : "Add_List",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 51,
+      "char" : 7,
+      "deco" : "FC11ListManager7CL_ListZv",
+      "parameters" : [
+       {
+        "name" : "list",
+        "deco" : "C11ListManager7CL_List"
+       }
+      ],
+      "endline" : 61,
+      "endchar" : 2
+     },
+     {
+      "name" : "Add",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 63,
+      "char" : 7,
+      "deco" : "FAyaQdQfQhbZb",
+      "parameters" : [
+       {
+        "name" : "TaskName",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "Title",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "Description",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "dueData",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "IsComplete",
+        "deco" : "b"
+       }
+      ],
+      "endline" : 96,
+      "endchar" : 2
+     },
+     {
+      "name" : "Remove",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 99,
+      "char" : 7,
+      "deco" : "FAyaZb",
+      "parameters" : [
+       {
+        "name" : "TaskName",
+        "deco" : "Aya"
+       }
+      ],
+      "endline" : 126,
+      "endchar" : 2
+     },
+     {
+      "name" : "removeAll",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 128,
+      "char" : 7,
+      "deco" : "FZb",
+      "endline" : 140,
+      "endchar" : 2
+     },
+     {
+      "name" : "Edit",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 142,
+      "char" : 7,
+      "deco" : "FAyaZb",
+      "parameters" : [
+       {
+        "name" : "TaskName",
+        "deco" : "Aya"
+       }
+      ],
+      "endline" : 203,
+      "endchar" : 2
+     },
+     {
+      "name" : "showall",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 205,
+      "char" : 7,
+      "deco" : "FZb",
+      "endline" : 230,
+      "endchar" : 2
+     },
+     {
+      "name" : "SearchAndShow",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 232,
+      "char" : 7,
+      "deco" : "FAyaZb",
+      "parameters" : [
+       {
+        "name" : "TaskName",
+        "deco" : "Aya"
+       }
+      ],
+      "endline" : 261,
+      "endchar" : 2
+     }
+    ]
+   },
+   {
+    "name" : "stdAP",
+    "kind" : "class",
+    "protection" : "public",
+    "line" : 271,
+    "char" : 8,
+    "members" : [
+     {
+      "name" : "NullableTypesBool",
+      "kind" : "enum",
+      "protection" : "public",
+      "line" : 273,
+      "char" : 9,
+      "baseDeco" : "i",
+      "members" : [
+       {
+        "name" : "True",
+        "kind" : "enum member",
+        "protection" : "public",
+        "value" : "0",
+        "line" : 275,
+        "char" : 3
+       },
+       {
+        "name" : "False",
+        "kind" : "enum member",
+        "protection" : "public",
+        "value" : "1",
+        "line" : 276,
+        "char" : 3
+       },
+       {
+        "name" : "Null",
+        "kind" : "enum member",
+        "protection" : "public",
+        "value" : "2",
+        "line" : 277,
+        "char" : 3
+       },
+       {
+        "name" : "Valid",
+        "kind" : "enum member",
+        "protection" : "public",
+        "value" : "3",
+        "line" : 278,
+        "char" : 3
+       },
+       {
+        "name" : "NotValid",
+        "kind" : "enum member",
+        "protection" : "public",
+        "value" : "4",
+        "line" : 279,
+        "char" : 3
+       }
+      ]
+     },
+     {
+      "name" : "checkTaskNameIsexists",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 282,
+      "char" : 27,
+      "storageClass" : [
+       "static"
+      ],
+      "deco" : "FAC11ListManager7CL_ListAyaZEQBa5stdAP17NullableTypesBool",
+      "parameters" : [
+       {
+        "name" : "list",
+        "deco" : "AC11ListManager7CL_List"
+       },
+       {
+        "name" : "tn",
+        "deco" : "Aya"
+       }
+      ],
+      "endline" : 304,
+      "endchar" : 2
+     },
+     {
+      "name" : "FindList_Todolist",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 306,
+      "char" : 17,
+      "storageClass" : [
+       "static"
+      ],
+      "deco" : "FAyaAC11ListManager7CL_ListZQx",
+      "parameters" : [
+       {
+        "name" : "TaskName",
+        "deco" : "Aya"
+       },
+       {
+        "name" : "lists",
+        "deco" : "AC11ListManager7CL_List"
+       }
+      ],
+      "endline" : 326,
+      "endchar" : 2
+     },
+     {
+      "name" : "IsNullOrWhiteSpace",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 330,
+      "char" : 14,
+      "storageClass" : [
+       "static"
+      ],
+      "deco" : "FAyaZb",
+      "parameters" : [
+       {
+        "name" : "text",
+        "deco" : "Aya"
+       }
+      ],
+      "endline" : 345,
+      "endchar" : 2
+     },
+     {
+      "name" : "DeleteWhiteSpaceOtherCharacter",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 347,
+      "char" : 27,
+      "storageClass" : [
+       "static"
+      ],
+      "deco" : "FAyaZE11ListManager5stdAP17NullableTypesBool",
+      "parameters" : [
+       {
+        "name" : "text",
+        "deco" : "Aya"
+       }
+      ],
+      "endline" : 361,
+      "endchar" : 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name" : "SimpleTodoListDlang",
+  "kind" : "module",
+  "file" : "SimpleTodoListDlang.d",
+  "members" : [
+   {
+    "name" : "std.stdio",
+    "kind" : "import",
+    "line" : 3,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "TodoListManager",
+    "kind" : "import",
+    "line" : 4,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "main",
+    "kind" : "function",
+    "protection" : "public",
+    "line" : 6,
+    "char" : 5,
+    "deco" : "FZi",
+    "endline" : 12,
+    "endchar" : 1
+   },
+   {
+    "name" : "_d_cmain!()",
+    "kind" : "mixin",
+    "protection" : "public",
+    "line" : 6,
+    "char" : 5
+   }
+  ]
+ },
+ {
+  "name" : "TodoListManager",
+  "kind" : "module",
+  "file" : "TodoListManager.d",
+  "members" : [
+   {
+    "name" : "std.stdio",
+    "kind" : "import",
+    "line" : 3,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "ListManager",
+    "kind" : "import",
+    "line" : 4,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "std.string",
+    "kind" : "import",
+    "line" : 5,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "CLTodoListManager",
+    "kind" : "class",
+    "protection" : "public",
+    "line" : 7,
+    "char" : 1,
+    "members" : [
+     {
+      "name" : "MainMenu",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 9,
+      "char" : 7,
+      "deco" : "FZv",
+      "endline" : 92,
+      "endchar" : 2
+     },
+     {
+      "name" : "HelpDisplay",
+      "kind" : "function",
+      "protection" : "public",
+      "line" : 94,
+      "char" : 7,
+      "deco" : "FZv",
+      "endline" : 118,
+      "endchar" : 2
+     }
+    ]
+   }
+  ]
+ }
+]
