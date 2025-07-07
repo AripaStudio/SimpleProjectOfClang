@@ -25,10 +25,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="ADD CRUD">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,15 +114,7 @@
       <workItem from="1751685905948" duration="370000" />
       <workItem from="1751849031542" duration="2542000" />
       <workItem from="1751857878546" duration="13000" />
-      <workItem from="1751865439231" duration="2208000" />
-    </task>
-    <task id="LOCAL-00003" summary="One Project Hello World!">
-      <option name="closed" value="true" />
-      <created>1750064994423</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1750064994423</updated>
+      <workItem from="1751865439231" duration="4028000" />
     </task>
     <task id="LOCAL-00004" summary="add New Project">
       <option name="closed" value="true" />
@@ -509,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751868660865</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1751870785119</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1751870785119</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start" />
     <MESSAGE value="Add New Project" />
     <MESSAGE value="Add New Project for example" />
     <MESSAGE value="Add New Project for example2" />
@@ -557,6 +555,7 @@
     <MESSAGE value="add cmake" />
     <MESSAGE value="END" />
     <MESSAGE value="ADD CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD CRUD" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
