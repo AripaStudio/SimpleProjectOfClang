@@ -10,7 +10,7 @@
 
 cJSON* create_or_load_json_file(const char* filepath);
 
-bool add_item_to_json(cJSON* root, const char* key, const char* value);
+bool add_task_to_todolist(cJSON* root, int id, const char* title, const char* description, const char* due_date, const char* status) ;
 void delete_item_from_json(cJSON* root, const char* key);
 cJSON* search_item_in_json(cJSON* root, const char* key);
 void show_json_content(cJSON* root);

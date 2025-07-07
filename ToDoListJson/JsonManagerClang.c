@@ -12,30 +12,100 @@
 #include <stdlib.h>
 #include <string.h>
 
-bool add_item_to_json(cJSON* root , const char* key , const char* value) {
-    if (!root || !key || !value) {
+int Get_NewID(cJSON* root) {
+    if (root == NULL) {
+        return 0;
+    }
+    return cJSON_GetArraySize(root) + 1;
+}
+
+
+
+bool add_task_to_todolist(cJSON* root, const char* title, const char* description, const char* due_date, const char* status) {
+    if (!root || !title || !description || !due_date || !status) {
         return false;
     }
-    if (!cJSON_AddStringToObject(root, key, value)) {
+
+    cJSON* tasks_array = cJSON_GetObjectItem(root, "tasks");
+    if (!tasks_array) {
+        tasks_array = cJSON_CreateArray();
+        if (!tasks_array) {
+            return false;
+        }
+        cJSON_AddItemToObject(root, "tasks", tasks_array);
+    }
+    int new_ID = Get_NewID(tasks_array);
+
+    if (!cJSON_IsArray(tasks_array)) {
         return false;
     }
+
+    cJSON* new_task = cJSON_CreateObject();
+    if (!new_task) {
+        return false;
+    }
+
+    cJSON_AddNumberToObject(new_task, "id", new_ID);
+    cJSON_AddStringToObject(new_task, "title", title);
+    cJSON_AddStringToObject(new_task, "description", description);
+    cJSON_AddStringToObject(new_task, "due_date", due_date);
+    cJSON_AddStringToObject(new_task, "status", status);
+
+    cJSON_AddItemToArray(tasks_array, new_task);
 
     return true;
 }
 
-void delete_item_from_json(cJSON* root , const char* key) {
-    if (!root || !key) {
-        return;
+bool delete_item_from_json(cJSON* root , int id_to_delete) {
+    if (!root) {
+        return false;
     }
-    cJSON_DeleteItemFromObject(root , key);
+
+    cJSON* tasks_array = cJSON_GetObjectItem(root, "tasks");
+    if (!tasks_array || !cJSON_IsArray(tasks_array)) {
+        return false;
+    }
+
+    int array_size = cJSON_GetArraySize(tasks_array);
+    for (int i = 0; i < array_size; i++) {
+        cJSON* task_item = cJSON_GetArrayItem(tasks_array, i);
+        if (task_item && cJSON_IsObject(task_item)) {
+            cJSON* id_json = cJSON_GetObjectItem(task_item, "id");
+            if (id_json && cJSON_IsNumber(id_json)) {
+                int current_id = id_json->valueint;
+                if (current_id == id_to_delete) {
+                    cJSON_DeleteItemFromArray(tasks_array, i);
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
 }
 
-cJSON* search_item_in_json(cJSON* root , const char* key) {
-    if (root || !key) {
+cJSON* search_item_in_json(cJSON* root , int id_to_find) {
+    if (!root) {
         return NULL;
     }
 
-    return cJSON_GetObjectItem(root , key);
+    cJSON* task_array = cJSON_GetObjectItem(root, "tasks");
+    if (!task_array || !cJSON_IsArray(task_array)) {
+        return NULL;
+    }
+
+    int array_size = cJSON_GetArraySize(task_array);
+    for (int i = 0; i < array_size; i++) {
+        cJSON* task_item = cJSON_GetArrayItem(task_array, i);
+        if (task_item && cJSON_IsObject(task_item)) {
+            cJSON* id_json = cJSON_GetObjectItem(task_item, "id");
+            if (id_json && cJSON_IsNumber(id_json)) {
+                int current_id = id_json->valueint;
+                if (current_id == id_to_find) {
+                    return task_item;
+                }
+            }
+        }
+    }
 }
 
 void show_json_content(cJSON* root) {
