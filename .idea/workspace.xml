@@ -25,10 +25,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="add Cjson">
-      <change afterPath="$PROJECT_DIR$/ToDoListJson/JsonManager/JsonManagerClang.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoListJson/JsonManager/JsonManagerClang.h" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="add cmake">
+      <change afterPath="$PROJECT_DIR$/ToDoListJson/MemoryManager.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListJson/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManager/JsonManagerClang.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManager/JsonManagerClang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJson/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +116,7 @@
       <workItem from="1751595874362" duration="64000" />
       <workItem from="1751665705363" duration="292000" />
       <workItem from="1751685905948" duration="370000" />
-      <workItem from="1751849031542" duration="307000" />
+      <workItem from="1751849031542" duration="2506000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -491,7 +494,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751849205554</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add">
+      <option name="closed" value="true" />
+      <created>1751849350139</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1751849350139</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add cmake">
+      <option name="closed" value="true" />
+      <created>1751849459165</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1751849459165</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,8 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test?" />
-    <MESSAGE value="Fix?" />
     <MESSAGE value="END NumberGuessing game" />
     <MESSAGE value="Start" />
     <MESSAGE value="Add New Project" />
@@ -539,6 +556,8 @@
     <MESSAGE value="TEST?" />
     <MESSAGE value="start" />
     <MESSAGE value="add Cjson" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Cjson" />
+    <MESSAGE value="add" />
+    <MESSAGE value="add cmake" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cmake" />
   </component>
 </project>

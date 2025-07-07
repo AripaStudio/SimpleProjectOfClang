@@ -3,3 +3,8 @@
 //
 
 #include "JsonManagerClang.h"
+#include "Cjson/cJSON.h"
+#include <stdbool.h>
+
+
+

@@ -1,0 +1,25 @@
+//
+// Created by VENUS on 7/6/2025.
+//
+
+#ifndef JSONMANAGERCLANG_H
+#define JSONMANAGERCLANG_H
+
+#include <stdbool.h>
+#include "Cjson/cJSON.h"
+
+cJSON* create_or_load_json_file(const char* filepath);
+
+bool add_item_to_json(cJSON* root, const char* key, const char* value);
+bool delete_item_from_json(cJSON* root, const char* key);
+cJSON* search_item_in_json(cJSON* root, const char* key);
+void show_json_content(cJSON* root);
+
+bool save_json_to_file(cJSON* root, const char* filepath);
+
+void cleanup_json(cJSON* root);
+
+
+#endif //JSONMANAGERCLANG_H
+
+

@@ -1,8 +1,0 @@
-//
-// Created by VENUS on 7/6/2025.
-//
-
-#ifndef JSONMANAGERCLANG_H
-#define JSONMANAGERCLANG_H
-
-#endif //JSONMANAGERCLANG_H
