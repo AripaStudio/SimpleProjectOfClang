@@ -36,5 +36,8 @@ cJSON* create_or_load_json_file(const char *filepath)
     return root;
 }
 void cleanup_json(cJSON* root) {
-
+    if (root) {
+        cJSON_Delete(root);
+        printf("JSON memory cleaned up. \n");
+    }
 }
