@@ -25,8 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Add ConvertStringToIntAndcheck">
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix ConvertStringToIntAndcheck">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,15 +116,7 @@
       <workItem from="1751865439231" duration="4051000" />
       <workItem from="1752024637180" duration="628000" />
       <workItem from="1752039540631" duration="3623000" />
-      <workItem from="1752061889826" duration="1402000" />
-    </task>
-    <task id="LOCAL-00008" summary="Start New Project">
-      <option name="closed" value="true" />
-      <created>1750070810548</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1750070810548</updated>
+      <workItem from="1752061889826" duration="1496000" />
     </task>
     <task id="LOCAL-00009" summary="Create New Project">
       <option name="closed" value="true" />
@@ -510,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752070867243</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Fix ConvertStringToIntAndcheck">
+      <option name="closed" value="true" />
+      <created>1752070896692</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1752070896692</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Complete One" />
     <MESSAGE value="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27" />
     <MESSAGE value="I'm Back(:" />
     <MESSAGE value="Fix Input User" />
@@ -558,6 +557,7 @@
     <MESSAGE value="Start" />
     <MESSAGE value="Barq Raft ):" />
     <MESSAGE value="Add ConvertStringToIntAndcheck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ConvertStringToIntAndcheck" />
+    <MESSAGE value="Fix ConvertStringToIntAndcheck" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix ConvertStringToIntAndcheck" />
   </component>
 </project>
