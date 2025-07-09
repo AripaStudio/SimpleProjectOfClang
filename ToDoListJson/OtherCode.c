@@ -15,30 +15,33 @@ void string_to_lower(char *str) {
     }
 }
 
-bool ConvertStringToIntAndCheck(char* input , int* output) {
-    if (input == NULL) {
+bool ConvertStringToIntAndCheck(const char* input, int* output) {
+    if (input == NULL || output == NULL) {
         return false;
     }
+    int len = strlen(input);
+    if (len == 0) {
+        return false;
+    }
+    bool found_digit = false;
 
-    int sizeInput = strlen(input);
-    if (sizeInput == 0) {
-        return false;
-    }
-    int LastLength = sizeInput - 1;
-    bool checkForeach = false;
-    for (int i = 0; i < sizeInput; i++) {
+    for (int i = 0; i < len; i++) {
         char c = input[i];
-        if (c >= '0' && c <= '9') {
-            if (i < LastLength) {
-                checkForeach = true;
-            }
-        }else {
+
+        if (i == 0 && (c == '-' || c == '+')) {
+            continue;
+        }
+
+        if (c < '0' || c > '9') {
             return false;
         }
+
+
+        found_digit = true;
     }
-    if (checkForeach) {
-        *output = atoi(input);
-        return true;
+    if (!found_digit) {
+        return false;
     }
-    return false;
+    *output = atoi(input);
+    return true;
 }
