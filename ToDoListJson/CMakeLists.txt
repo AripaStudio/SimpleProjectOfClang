@@ -8,5 +8,6 @@ add_executable(ToDoListJson main.c
         JsonManagerClang.h
         Cjson/cJSON.c
         Cjson/cJSON.h
-        MemoryManager.c)
+        MemoryManager.c
+        OtherCode.c)
 

@@ -181,6 +181,7 @@ bool MainMenu(const char* filename , cJSON* root) {
                 }
             }else if (strcmp(input, "remove") == 0) {
                 int id ;
+
             }else if (strcmp(input, "showall") == 0) {
 
             }else if (strcmp(input, "save") == 0) {
@@ -204,12 +205,4 @@ void Show_Help() {
     printf("for Exit : exit\n");
     printf("-----Commands-----\n");
 }
-
-
-void string_to_lower(char *str) {
-    for (int i = 0; str[i]; i++) {
-        str[i] = tolower((unsigned char)str[i]);
-    }
-}
-
 
