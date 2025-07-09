@@ -25,9 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,15 +113,8 @@
       <workItem from="1751685905948" duration="370000" />
       <workItem from="1751849031542" duration="2542000" />
       <workItem from="1751857878546" duration="13000" />
-      <workItem from="1751865439231" duration="4028000" />
-    </task>
-    <task id="LOCAL-00004" summary="add New Project">
-      <option name="closed" value="true" />
-      <created>1750065368075</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1750065368075</updated>
+      <workItem from="1751865439231" duration="4051000" />
+      <workItem from="1752024637180" duration="14000" />
     </task>
     <task id="LOCAL-00005" summary="Add New Project and Fix One">
       <option name="closed" value="true" />
@@ -508,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751870785119</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="END">
+      <option name="closed" value="true" />
+      <created>1751875885581</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1751875885581</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,9 +553,9 @@
     <MESSAGE value="add Cjson" />
     <MESSAGE value="add" />
     <MESSAGE value="add cmake" />
-    <MESSAGE value="END" />
     <MESSAGE value="ADD CRUD" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="END" />
+    <option name="LAST_COMMIT_MESSAGE" value="END" />
   </component>
 </project>
