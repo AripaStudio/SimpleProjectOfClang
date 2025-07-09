@@ -25,11 +25,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Start">
-      <change afterPath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Barq Raft ):">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +117,7 @@
       <workItem from="1751865439231" duration="4051000" />
       <workItem from="1752024637180" duration="628000" />
       <workItem from="1752039540631" duration="3623000" />
-    </task>
-    <task id="LOCAL-00006" summary="tEST?">
-      <option name="closed" value="true" />
-      <created>1750069652617</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1750069652617</updated>
+      <workItem from="1752061889826" duration="1351000" />
     </task>
     <task id="LOCAL-00007" summary="END project Two">
       <option name="closed" value="true" />
@@ -512,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752024656395</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Barq Raft ):">
+      <option name="closed" value="true" />
+      <created>1752063452033</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1752063452034</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +534,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add New Project for example" />
     <MESSAGE value="Add New Project for example2" />
     <MESSAGE value="Complete One" />
     <MESSAGE value="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27" />
@@ -560,6 +558,7 @@
     <MESSAGE value="Fix" />
     <MESSAGE value="END" />
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Barq Raft ):" />
+    <option name="LAST_COMMIT_MESSAGE" value="Barq Raft ):" />
   </component>
 </project>
