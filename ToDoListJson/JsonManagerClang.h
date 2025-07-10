@@ -23,7 +23,9 @@ bool MainMenu(const char* filename , cJSON* root);
 
 void Show_Help();
 
-void string_to_lower(char *str)
+void string_to_lower(char *str);
+
+bool ConvertStringToIntAndCheck(const char* input, int* output);
 
 #endif //JSONMANAGERCLANG_H
 

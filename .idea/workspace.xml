@@ -25,8 +25,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix ConvertStringToIntAndcheck">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="END">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,15 +118,8 @@
       <workItem from="1751865439231" duration="4051000" />
       <workItem from="1752024637180" duration="628000" />
       <workItem from="1752039540631" duration="3623000" />
-      <workItem from="1752061889826" duration="1496000" />
-    </task>
-    <task id="LOCAL-00009" summary="Create New Project">
-      <option name="closed" value="true" />
-      <created>1750072549513</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1750072549513</updated>
+      <workItem from="1752061889826" duration="1519000" />
+      <workItem from="1752120322882" duration="1812000" />
     </task>
     <task id="LOCAL-00010" summary="Create New Project2">
       <option name="closed" value="true" />
@@ -510,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752070896692</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="END">
+      <option name="closed" value="true" />
+      <created>1752070989960</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1752070989960</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,11 +556,11 @@
     <MESSAGE value="add cmake" />
     <MESSAGE value="ADD CRUD" />
     <MESSAGE value="Fix" />
-    <MESSAGE value="END" />
     <MESSAGE value="Start" />
     <MESSAGE value="Barq Raft ):" />
     <MESSAGE value="Add ConvertStringToIntAndcheck" />
     <MESSAGE value="Fix ConvertStringToIntAndcheck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix ConvertStringToIntAndcheck" />
+    <MESSAGE value="END" />
+    <option name="LAST_COMMIT_MESSAGE" value="END" />
   </component>
 </project>
