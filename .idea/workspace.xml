@@ -25,12 +25,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix MainMenu and Main.c">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Complete TodoList Json in C" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,15 +115,7 @@
       <workItem from="1752024637180" duration="628000" />
       <workItem from="1752039540631" duration="3623000" />
       <workItem from="1752061889826" duration="1519000" />
-      <workItem from="1752120322882" duration="3577000" />
-    </task>
-    <task id="LOCAL-00012" summary="Start">
-      <option name="closed" value="true" />
-      <created>1750088392045</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1750088392045</updated>
+      <workItem from="1752120322882" duration="3595000" />
     </task>
     <task id="LOCAL-00013" summary="Test?">
       <option name="closed" value="true" />
@@ -514,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752127220261</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Complete TodoList Json in C">
+      <option name="closed" value="true" />
+      <created>1752128164522</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1752128164522</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix Input User" />
     <MESSAGE value="Fix TodoListSimple C and END" />
     <MESSAGE value="Complete SimpleToDoList" />
     <MESSAGE value="Add Project" />
@@ -562,6 +556,7 @@
     <MESSAGE value="END" />
     <MESSAGE value="start and fix convert" />
     <MESSAGE value="Fix MainMenu and Main.c" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix MainMenu and Main.c" />
+    <MESSAGE value="Complete TodoList Json in C" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete TodoList Json in C" />
   </component>
 </project>
