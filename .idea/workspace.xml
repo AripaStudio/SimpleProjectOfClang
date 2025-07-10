@@ -25,11 +25,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="start and fix convert">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Fix MainMenu and Main.c">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/JsonManagerClang.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/OtherCode.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListJson/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJson/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,15 +120,7 @@
       <workItem from="1752024637180" duration="628000" />
       <workItem from="1752039540631" duration="3623000" />
       <workItem from="1752061889826" duration="1519000" />
-      <workItem from="1752120322882" duration="2649000" />
-    </task>
-    <task id="LOCAL-00011" summary="Create New Project3">
-      <option name="closed" value="true" />
-      <created>1750072961006</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1750072961006</updated>
+      <workItem from="1752120322882" duration="3577000" />
     </task>
     <task id="LOCAL-00012" summary="Start">
       <option name="closed" value="true" />
@@ -515,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752124013726</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Fix MainMenu and Main.c">
+      <option name="closed" value="true" />
+      <created>1752127220261</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1752127220261</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="I'm Back(:" />
     <MESSAGE value="Fix Input User" />
     <MESSAGE value="Fix TodoListSimple C and END" />
     <MESSAGE value="Complete SimpleToDoList" />
@@ -563,6 +561,7 @@
     <MESSAGE value="Fix ConvertStringToIntAndcheck" />
     <MESSAGE value="END" />
     <MESSAGE value="start and fix convert" />
-    <option name="LAST_COMMIT_MESSAGE" value="start and fix convert" />
+    <MESSAGE value="Fix MainMenu and Main.c" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix MainMenu and Main.c" />
   </component>
 </project>

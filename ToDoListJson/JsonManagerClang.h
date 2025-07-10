@@ -22,7 +22,7 @@ bool save_json_to_file(cJSON* root, const char* filepath);
 
 void cleanup_json(cJSON* root);
 
-void MainMenu(const char* filename , cJSON* root);
+bool MainMenu(const char* filename , cJSON* root);
 
 void Show_Help();
 

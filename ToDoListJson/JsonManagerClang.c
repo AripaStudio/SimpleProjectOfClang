@@ -144,7 +144,7 @@ bool save_json_to_file(cJSON* root , const char* filename) {
 }
 
 
-void MainMenu(const char* filename , cJSON* root) {
+bool MainMenu(const char* filename , cJSON* root) {
     printf("welcome to Todolist");
     printf("\n");
     Show_Help();
@@ -160,31 +160,37 @@ void MainMenu(const char* filename , cJSON* root) {
             if (strcmp(input, "help") == 0) {
                 Show_Help();
             }else if (strcmp(input, "exit") == 0) {
-                return;
+                return false;
             }else if (strcmp(input , "add") == 0) {
                 char title[100];
                 char description[200];
                 char due_date[100];
                 char status[100];
+                printf("Enter title : ");
                 if (fgets(title , sizeof(title) , stdin) != NULL) {
                     title[strcspn(title, "\n")] = 0;
+                    printf("Enter description : ");
                     if (fgets(description , sizeof(description) , stdin) != NULL) {
                         description[strcspn(description, "\n")] = 0;
+                        printf("Enter due date : ");
                         if (fgets(due_date , sizeof(due_date) , stdin) != NULL) {
                             due_date[strcspn(due_date, "\n")] = 0;
+                            printf("Enter status : ");
                             if (fgets(status , sizeof(status) , stdin) != NULL) {
                                 status[strcspn(status, "\n")] = 0;
                                 add_task_to_todolist(root , title , description , due_date, status);
                             }
+
                         }
                     }
                 }
             }else if (strcmp(input, "remove") == 0) {
                 int id ;
-                char getID[50];
+                char getID[11];
+                printf("Enter id : ");
                 if (fgets(getID , sizeof(getID) , stdin) != NULL) {
                     getID[strcspn(getID, "\n")] = 0;
-                    bool CheckConvert = ConvertStringToIntAndCheck(getID , id);
+                    bool CheckConvert = ConvertStringToIntAndCheck(getID , &id);
                     if (CheckConvert) {
                         bool checkDelete = delete_item_from_json(root , id);
                         if (checkDelete) {

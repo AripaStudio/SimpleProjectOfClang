@@ -11,7 +11,10 @@ int main(void) {
         return 1;
     }
     while (root != NULL) {
-        MainMenu(filename , root);
+        bool mainmenu = MainMenu(filename , root);
+        if (!mainmenu) {
+            break;
+        }
     }
 
     return 0;
