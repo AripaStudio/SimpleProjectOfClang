@@ -144,7 +144,7 @@ bool save_json_to_file(cJSON* root , const char* filename) {
 }
 
 
-bool MainMenu(const char* filename , cJSON* root) {
+void MainMenu(const char* filename , cJSON* root) {
     printf("welcome to Todolist");
     printf("\n");
     Show_Help();
@@ -160,7 +160,7 @@ bool MainMenu(const char* filename , cJSON* root) {
             if (strcmp(input, "help") == 0) {
                 Show_Help();
             }else if (strcmp(input, "exit") == 0) {
-                return false;
+                return;
             }else if (strcmp(input , "add") == 0) {
                 char title[100];
                 char description[200];
@@ -181,11 +181,30 @@ bool MainMenu(const char* filename , cJSON* root) {
                 }
             }else if (strcmp(input, "remove") == 0) {
                 int id ;
+                char getID[50];
+                if (fgets(getID , sizeof(getID) , stdin) != NULL) {
+                    getID[strcspn(getID, "\n")] = 0;
+                    bool CheckConvert = ConvertStringToIntAndCheck(getID , id);
+                    if (CheckConvert) {
+                        bool checkDelete = delete_item_from_json(root , id);
+                        if (checkDelete) {
+                            printf("Delete Complete");
+                        }else {
+                            printf("Delete Failed");
+                            printf("Please try Again");
+                        }
 
+                    }else {
+                        printf("Invalid ID \n");
+                        printf("Please try again \n");
+                    }
+                }
             }else if (strcmp(input, "showall") == 0) {
-
+                show_json_content(root);
             }else if (strcmp(input, "save") == 0) {
-
+                save_json_to_file(root , filename);
+            }else {
+                Show_Help();
             }
         }
     }

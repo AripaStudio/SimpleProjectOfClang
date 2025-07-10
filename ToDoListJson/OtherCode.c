@@ -84,6 +84,5 @@ bool ConvertStringToIntAndCheck(const char* input, int* output) {
         }
         *output = (int)result;
     }
-
     return true;
 }

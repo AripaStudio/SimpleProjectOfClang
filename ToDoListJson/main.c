@@ -10,6 +10,9 @@ int main(void) {
         fprintf(stderr , "Failed to create or load JSON.\n");
         return 1;
     }
+    while (root != NULL) {
+        MainMenu(filename , root);
+    }
 
     return 0;
 }
