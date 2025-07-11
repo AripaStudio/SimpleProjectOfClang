@@ -68,7 +68,7 @@ namespace ToDoListJsonCS
             
         }
 
-        public bool MainMenu(string fileName)
+        public bool MainMenu()
         {
             return false;
         }
@@ -97,6 +97,8 @@ namespace ToDoListJsonCS
         public string Description { get; set; }
 
         public string Status { get; set; }
+
+        public string IsComplete { get; set; }
 
         
     }

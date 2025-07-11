@@ -25,8 +25,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="Start TodoListCS partTwo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJsonCS/.vs/ToDoListJsonCS/FileContentIndex/05ca4b65-7eaa-431e-91cb-8f0137af9c68.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJsonCS/.vs/ToDoListJsonCS/FileContentIndex/268e6a07-d1b2-40ec-b589-eeefd34f8f12.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/CL_CRUDmanager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/CL_CRUDmanager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/CL_TodolistManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/CL_TodolistManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/obj/Debug/net8.0/ToDoListJsonCS.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/obj/Debug/net8.0/ToDoListJsonCS.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/obj/Debug/net8.0/ToDoListJsonCS.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListJsonCS/ToDoListJsonCS/obj/Debug/net8.0/ToDoListJsonCS.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,22 +124,7 @@
       <workItem from="1752039540631" duration="3623000" />
       <workItem from="1752061889826" duration="1519000" />
       <workItem from="1752120322882" duration="3672000" />
-    </task>
-    <task id="LOCAL-00014" summary="Fix?">
-      <option name="closed" value="true" />
-      <created>1750094587077</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1750094587077</updated>
-    </task>
-    <task id="LOCAL-00015" summary="END NumberGuessing game">
-      <option name="closed" value="true" />
-      <created>1750095401857</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1750095401857</updated>
+      <workItem from="1752217362913" duration="923000" />
     </task>
     <task id="LOCAL-00016" summary="Start">
       <option name="closed" value="true" />
@@ -511,7 +502,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752128227283</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Start TodoListCS">
+      <option name="closed" value="true" />
+      <created>1752217379113</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1752217379113</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Start TodoListCS partTwo">
+      <option name="closed" value="true" />
+      <created>1752217388454</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1752217388454</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,8 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Complete SimpleToDoList" />
-    <MESSAGE value="Add Project" />
     <MESSAGE value="Add Project and Edit" />
     <MESSAGE value="Fix AND end" />
     <MESSAGE value="Start AND END" />
@@ -559,6 +564,8 @@
     <MESSAGE value="Fix MainMenu and Main.c" />
     <MESSAGE value="Complete TodoList Json in C" />
     <MESSAGE value="Start Create TodoList Json in D , C# &#10;and End Project , start CAP_lib and DAP_lib&#10;and Other Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start Create TodoList Json in D , C# &#10;and End Project , start CAP_lib and DAP_lib&#10;and Other Project" />
+    <MESSAGE value="Start TodoListCS" />
+    <MESSAGE value="Start TodoListCS partTwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start TodoListCS partTwo" />
   </component>
 </project>

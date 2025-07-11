@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoListJsonCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43e1a9a83c9c3faeb21355221fb65f4f7582b4cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fd575c750d099cedcae30b82f5cf116a858bc61")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoListJsonCS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoListJsonCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
