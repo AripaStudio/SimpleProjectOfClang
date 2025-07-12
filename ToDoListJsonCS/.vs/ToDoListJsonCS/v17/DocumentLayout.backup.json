@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\3ClionPorject\\SimpleProjectOfClang\\ToDoListJsonCS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3288C4D6-93C1-469A-9012-B60D8FF8190D}|ToDoListJsonCS\\ToDoListJsonCS.csproj|d:\\3clionporject\\simpleprojectofclang\\todolistjsoncs\\todolistjsoncs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3288C4D6-93C1-469A-9012-B60D8FF8190D}|ToDoListJsonCS\\ToDoListJsonCS.csproj|solutionrelative:todolistjsoncs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3288C4D6-93C1-469A-9012-B60D8FF8190D}|ToDoListJsonCS\\ToDoListJsonCS.csproj|d:\\3clionporject\\simpleprojectofclang\\todolistjsoncs\\todolistjsoncs\\cl_todolistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3288C4D6-93C1-469A-9012-B60D8FF8190D}|ToDoListJsonCS\\ToDoListJsonCS.csproj|solutionrelative:todolistjsoncs\\cl_todolistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3288C4D6-93C1-469A-9012-B60D8FF8190D}|ToDoListJsonCS\\ToDoListJsonCS.csproj|d:\\3clionporject\\simpleprojectofclang\\todolistjsoncs\\todolistjsoncs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3288C4D6-93C1-469A-9012-B60D8FF8190D}|ToDoListJsonCS\\ToDoListJsonCS.csproj|solutionrelative:todolistjsoncs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3288C4D6-93C1-469A-9012-B60D8FF8190D}|ToDoListJsonCS\\ToDoListJsonCS.csproj|d:\\3clionporject\\simpleprojectofclang\\todolistjsoncs\\todolistjsoncs\\cl_crudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CL_TodolistManager.cs",
               "DocumentMoniker": "D:\\3ClionPorject\\SimpleProjectOfClang\\ToDoListJsonCS\\ToDoListJsonCS\\CL_TodolistManager.cs",
               "RelativeDocumentMoniker": "ToDoListJsonCS\\CL_TodolistManager.cs",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\ToDoListJsonCS\\ToDoListJsonCS\\CL_TodolistManager.cs",
               "RelativeToolTip": "ToDoListJsonCS\\CL_TodolistManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwEYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAowIgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-11T03:33:02.902Z",
               "EditorCaption": ""
@@ -65,20 +65,20 @@
               "RelativeDocumentMoniker": "ToDoListJsonCS\\CL_CRUDmanager.cs",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\ToDoListJsonCS\\ToDoListJsonCS\\CL_CRUDmanager.cs",
               "RelativeToolTip": "ToDoListJsonCS\\CL_CRUDmanager.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwJQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwD4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-11T03:32:26.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\3ClionPorject\\SimpleProjectOfClang\\ToDoListJsonCS\\ToDoListJsonCS\\Program.cs",
               "RelativeDocumentMoniker": "ToDoListJsonCS\\Program.cs",
               "ToolTip": "D:\\3ClionPorject\\SimpleProjectOfClang\\ToDoListJsonCS\\ToDoListJsonCS\\Program.cs",
               "RelativeToolTip": "ToDoListJsonCS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T11:23:56.255Z",
               "EditorCaption": ""

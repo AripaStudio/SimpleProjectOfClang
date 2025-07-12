@@ -33,7 +33,7 @@ namespace ToDoListJsonCS
             }
         }
 
-        public bool Add(string TaskName, string Titel, string Description, string dueDate, string IsComplete)
+        public bool Add(string TaskName, string Titel, string Description, string status, string IsComplete)
         {
             if (string.IsNullOrWhiteSpace(TaskName))
             {
@@ -56,7 +56,7 @@ namespace ToDoListJsonCS
             list.Name = TaskName;
             list.Title = Titel;
             list.Description = Description;
-            list.Status = dueDate;
+            list.Status = status;
             list.IsComplete = IsComplete;
 
             Add_LIST(list);

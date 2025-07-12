@@ -1,0 +1,15 @@
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\bin\Debug\net8.0\ToDoListJsonCS.exe
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\bin\Debug\net8.0\ToDoListJsonCS.deps.json
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\bin\Debug\net8.0\ToDoListJsonCS.runtimeconfig.json
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\bin\Debug\net8.0\ToDoListJsonCS.dll
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\bin\Debug\net8.0\ToDoListJsonCS.pdb
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.GeneratedMSBuildEditorConfig.editorconfig
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.AssemblyInfoInputs.cache
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.AssemblyInfo.cs
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.csproj.CoreCompileInputs.cache
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.sourcelink.json
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.dll
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\refint\ToDoListJsonCS.dll
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.pdb
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ToDoListJsonCS.genruntimeconfig.cache
+D:\3ClionPorject\SimpleProjectOfClang\ToDoListJsonCS\ToDoListJsonCS\obj\Debug\net8.0\ref\ToDoListJsonCS.dll
