@@ -16,6 +16,7 @@ struct TodoList{
 void main()
 {
 	writeln("hello world");
+	readln();
 }
 
 
@@ -24,7 +25,7 @@ class ToDoListManagaer{
 
 	public void LoadOrCreate()
 	{
-
+		
 	}
 
 	public void SaveFile()
