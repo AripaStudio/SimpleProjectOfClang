@@ -25,8 +25,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="CRUD complete">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="TodoList Json C# is Complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/FileContentIndex/edacef5a-adbf-43f8-890f-190fbb4a7b97.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.d" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.visualdproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.visualdproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +125,9 @@
       <workItem from="1752061889826" duration="1519000" />
       <workItem from="1752120322882" duration="3672000" />
       <workItem from="1752217362913" duration="1304000" />
-    </task>
-    <task id="LOCAL-00017" summary="Add New Project">
-      <option name="closed" value="true" />
-      <created>1750159196969</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1750159196969</updated>
+      <workItem from="1752284178048" duration="760000" />
+      <workItem from="1753208569535" duration="1712000" />
+      <workItem from="1753838605845" duration="1283000" />
     </task>
     <task id="LOCAL-00018" summary="Add New Project for example">
       <option name="closed" value="true" />
@@ -512,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752219537983</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="TodoList Json C# is Complete">
+      <option name="closed" value="true" />
+      <created>1752284198884</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1752284198884</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix AND end" />
     <MESSAGE value="Start AND END" />
     <MESSAGE value="START" />
     <MESSAGE value="check" />
@@ -560,6 +568,7 @@
     <MESSAGE value="Start TodoListCS" />
     <MESSAGE value="Start TodoListCS partTwo" />
     <MESSAGE value="CRUD complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD complete" />
+    <MESSAGE value="TodoList Json C# is Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="TodoList Json C# is Complete" />
   </component>
 </project>

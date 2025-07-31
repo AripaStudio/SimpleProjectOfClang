@@ -1,0 +1,26 @@
+{
+  "name": "jsondap",
+  "description": "a json Library of Aripa pars Studio",
+  "version" :  "2.0.0",
+  "homepage": "https://github.com/AripaStudio/JsonDAP",
+  "authors": [ "Aripa pars Studio , khashayar" ],
+  "license": "MIT",
+  "targetType": "dynamicLibrary",
+  "targetName": "JsonDAP",
+  "sourceFiles": [ "JsonDAP.d", "CoreAP.d", "PublicCodeOtherCode.d", "FileAP.d", "ExceptionAP.d", "jsonOtherCodeAP.d", "CheckVariablesAP.d" ],
+  "libs": [ "msvcrt", "legacy_stdio_definitions", "oldnames" ],
+  "buildTypes": {
+    "release": {
+      "buildOptions": [ "releaseMode", "optimize", "inline" ],
+      "dflags": [ "-mscrt" ],
+      "targetType": "dynamicLibrary",
+      "targetPath": "bin/release"
+    },
+    "debug": {
+      "buildOptions": [ "debugMode" ],
+      "dflags": [ "-boundscheck=off", "-mscrt" ],
+      "targetType": "dynamicLibrary",
+      "targetPath": "bin/version"
+    }
+  }
+}

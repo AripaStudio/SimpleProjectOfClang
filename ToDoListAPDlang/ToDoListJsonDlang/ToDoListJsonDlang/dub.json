@@ -1,0 +1,24 @@
+{
+  "name": "todolistjsondap",
+  "description": "An application using the JsonDAP DLL.",
+  "authors": [ "khashayar" ],
+  "sourceFiles": [ "TodoListJsonDlang.d" ],
+  "libs": [ "JsonDAP", "msvcrt" ],
+  "dependencies": {
+    "jsondap": { "path": "./AripaLib/source" }
+  },
+  "importPaths": [ "./AripaLib/source" ],
+  "targetName": "TodoListJsonDAP",
+  "configurations": [
+    {
+      "name": "debug",
+      "targetType": "executable"
+    },
+    {
+      "name": "release",
+      "targetType": "executable"
+    }
+  ],
+  "dflags-windows": [],
+  "lflags-windows": []
+}
