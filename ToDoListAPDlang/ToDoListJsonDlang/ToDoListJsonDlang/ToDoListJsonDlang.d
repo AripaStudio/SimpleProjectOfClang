@@ -5,8 +5,8 @@ import std.stdio;
 import std.typecons;
 import std.conv : to;
 import std.string;
-import std.algorithm : find, remove, map;
-import std.array : array;
+import std.algorithm : find, remove, map , countUntil;
+import std.array;
 import JsonDAP;
 
 
@@ -89,7 +89,7 @@ class ToDoListManagaer
 
 	public bool Delete(int id)
 	{
-		auto foundIndex = _tasks.std.algorithm.searching.countUntil!((task) => task.id == id);
+		auto foundIndex = countUntil!((task) => task.id == id)(_tasks);
 		if (foundIndex == -1)
 		{
 			writeln("Task with ID ", id, " not found.");
@@ -103,7 +103,7 @@ class ToDoListManagaer
 
 	public bool Edit(int id, string name, string lastname, string nameTask, bool isComplete)
 	{
-		auto foundIndex = _tasks.std.algorithm.searching.countUntil!((task) => task.id == id);
+		auto foundIndex = countUntil!((task) => task.id == id)(_tasks);
 		if (foundIndex == -1)
 		{
 			writeln("Task with ID ", id, " not found for editing.");

@@ -4,7 +4,6 @@
   "authors": [ "khashayar" ],
   "sourceFiles": [ "TodoListJsonDlang.d" ],
   "sourcePaths": [ "./AripaLib/source" ],
-  "libs": [ "JsonDAP" ],
   "dependencies": {},
   "targetName": "TodoListJsonDAP",
   "configurations": [
@@ -16,8 +15,5 @@
       "name": "release",
       "targetType": "executable"
     }
-  ],
-  "lflags-windows": [
-    "/LIBPATH:\"./AripaLib/Lib\""
   ]
 }
