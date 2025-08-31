@@ -1,12 +1,15 @@
 #include <stdbool.h>
 #include <stdio.h>
-#include  <string.h>
+#include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
 
 int is_number(const char *str) {
+    if (str == 0 || *str == '\0') {
+        return 0;
+    }
     while (*str) {
-        if (!isdigit(*str)) {
+        if (!isdigit(*str) && (*str != '-' || str != str)) {
             return 0;
         }
         str++;
@@ -14,85 +17,86 @@ int is_number(const char *str) {
     return 1;
 }
 
-int WhileReturn(char Amalgar) {
-    int SaveReturns[20];
-    int Charkhe = 0;
-    while (true) {
-        char inputUser[20];
-        printf("Please Enter your Number : ");
-        printf("for Exit You Can type (exit)");
-        if (fgets(inputUser, 20, stdin) == 0) {
-            inputUser[strcspn(inputUser, "\n")] = 0;
-            if (strcspn(inputUser , "exit") == 0) {
-                size_t size = strlen(inputUser);
-                switch (Amalgar) {
-                    case '+':
-                        Charkhe = 0;
-                        for (int i = 0; i < size; ++i) {
-                            Charkhe += inputUser[i];
-                        }
-                        break;
-                    case '-':
-                        if (Charkhe == 0 && Charkhe < Charkhe) {
-                            if (Charkhe == 0 && Charkhe < Charkhe) {
-                                Charkhe = SaveReturns[0];
-                                for (int i = 1; i < Charkhe; ++i) {
-                                    if (SaveReturns[i] > Charkhe) {
-                                        printf("Error\n");
-                                        break;
-                                    }
-                                    Charkhe -= SaveReturns[i];
-                                }
-                            }
-                        }
-                        break;
-                    case '*':
-                        Charkhe = 1;
-                        for (int i = 0; i < size; ++i) {
-                            Charkhe *= inputUser[i];
-                        }
-                        break;
-                    case '/':
-                        Charkhe = inputUser[0];
-                        for (int i = 1; i < size; ++i) {
-                            if (inputUser[i] == 0) {
-                                printf(" \n Error");
-                                break;
-                            }
-                            Charkhe /= inputUser[i];
-                        }
-                        break;
-                    default:
-                        printf("Qalat!\n");
-                }
-
-
-                return Charkhe;
-            }
-            if (is_number(inputUser)) {
-                SaveReturns[Charkhe] = atoi(inputUser);
-                Charkhe++;
-            }
-        }
-
-    }
-}
-
-
-int MashinHesap(char Amalgar) {
-    if (Amalgar == ' ' || Amalgar == '\n' || Amalgar == '\r' || Amalgar == '\t') {
+int calculate(char op, const int numbers[], int count) {
+    if (count == 0) {
         return 0;
     }
-    WhileReturn(Amalgar);
 
+    int result = 0;
+    switch (op) {
+        case '+':
+            result = 0;
+            for (int i = 0; i < count; i++) {
+                result += numbers[i];
+            }
+            break;
+        case '-':
+            result = numbers[0];
+            for (int i = 1; i < count; i++) {
+                result -= numbers[i];
+            }
+            break;
+        case '*':
+            result = 1;
+            for (int i = 0; i < count; i++) {
+                result *= numbers[i];
+            }
+            break;
+        case '/':
+            result = numbers[0];
+            for (int i = 1; i < count; i++) {
+                if (numbers[i] == 0) {
+                    printf("Error: Division by zero\n");
+                    return 0;
+                }
+                result /= numbers[i];
+            }
+            break;
+        default:
+            printf("Error: Invalid operator\n");
+            return 0;
+    }
+    return result;
 }
 
-int main(void){
+int process_input(char op) {
+    int numbers[20];
+    int count = 0;
+    char buffer[20];
+    printf("Please enter numbers (type 'exit' to calculate and quit):\n");
+    while (true) {
+        printf("> ");
+        if (fgets(buffer, sizeof(buffer), stdin) == 0) {
+            continue;
+        }
+
+        buffer[strcspn(buffer, "\n")] = 0;
+
+        if (strcmp(buffer, "exit") == 0) {
+            return calculate(op, numbers, count);
+        }
+
+        if (is_number(buffer)) {
+            if (count < 20) {
+                numbers[count] = atoi(buffer);
+                count++;
+            } else {
+                printf("Error: Max number limit reached.\n");
+            }
+        } else {
+            printf("Invalid input. Please enter a number.\n");
+        }
+    }
+}
+
+int main(void) {
     char op;
     printf("Enter operation (+, -, *, /): ");
     scanf(" %c", &op);
     getchar();
-    int finalResult = MashinHesap(op);
-    printf("Final Result: %d\n", finalResult);
+
+    int final_result = process_input(op);
+    printf("Final Result: %d\n", final_result);
+
     return 0;
 }

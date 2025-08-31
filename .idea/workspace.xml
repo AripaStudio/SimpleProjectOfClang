@@ -26,20 +26,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/Calculator2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator2/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/FileContentIndex/edacef5a-adbf-43f8-890f-190fbb4a7b97.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.json" afterDir="false" />
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/Calculator2/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator2/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,15 +134,7 @@
       <workItem from="1756449736026" duration="24000" />
       <workItem from="1756554454555" duration="31000" />
       <workItem from="1756556521785" duration="626000" />
-      <workItem from="1756646394498" duration="1343000" />
-    </task>
-    <task id="LOCAL-00022" summary="END">
-      <option name="closed" value="true" />
-      <created>1750169557280</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1750169557280</updated>
+      <workItem from="1756646394498" duration="1598000" />
     </task>
     <task id="LOCAL-00023" summary="Error in project SimpleToDoList and ToDoListManager.c in Method addTask_inputList in Line 27">
       <option name="closed" value="true" />
@@ -540,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754194251836</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="add">
+      <option name="closed" value="true" />
+      <created>1756648795433</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1756648795433</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +555,6 @@
     <MESSAGE value="TEST?" />
     <MESSAGE value="start" />
     <MESSAGE value="add Cjson" />
-    <MESSAGE value="add" />
     <MESSAGE value="add cmake" />
     <MESSAGE value="ADD CRUD" />
     <MESSAGE value="Fix" />
@@ -588,6 +575,7 @@
     <MESSAGE value="Fix JsonDAP error in dub" />
     <MESSAGE value="edit not Complete" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
