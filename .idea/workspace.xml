@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="712" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
@@ -25,14 +26,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="TodoList Json C# is Complete">
+    <list default="true" id="44a3ef2a-fe38-4e3b-890e-d2f1a5f78834" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/Calculator2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator2/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/FileContentIndex/edacef5a-adbf-43f8-890f-190fbb4a7b97.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.backup.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/.vs/ToDoListJsonDlang/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.d" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.visualdproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoListAPDlang/ToDoListJsonDlang/ToDoListJsonDlang/ToDoListJsonDlang.visualdproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,38 +135,18 @@
       <workItem from="1752284178048" duration="760000" />
       <workItem from="1753208569535" duration="1712000" />
       <workItem from="1753838605845" duration="1283000" />
-    </task>
-    <task id="LOCAL-00018" summary="Add New Project for example">
-      <option name="closed" value="true" />
-      <created>1750159364419</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1750159364419</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Add New Project for example2">
-      <option name="closed" value="true" />
-      <created>1750159486960</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1750159486960</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Complete One">
-      <option name="closed" value="true" />
-      <created>1750166269528</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1750166269528</updated>
-    </task>
-    <task id="LOCAL-00021" summary="END">
-      <option name="closed" value="true" />
-      <created>1750169541748</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1750169541748</updated>
+      <workItem from="1753925728656" duration="161000" />
+      <workItem from="1754001358906" duration="1392000" />
+      <workItem from="1754194172033" duration="90000" />
+      <workItem from="1754618592824" duration="13000" />
+      <workItem from="1754704924925" duration="11000" />
+      <workItem from="1755282683249" duration="32000" />
+      <workItem from="1756395412332" duration="681000" />
+      <workItem from="1756446226363" duration="650000" />
+      <workItem from="1756449736026" duration="24000" />
+      <workItem from="1756554454555" duration="31000" />
+      <workItem from="1756556521785" duration="626000" />
+      <workItem from="1756646394498" duration="1343000" />
     </task>
     <task id="LOCAL-00022" summary="END">
       <option name="closed" value="true" />
@@ -521,7 +508,39 @@
       <option name="project" value="LOCAL" />
       <updated>1752284198884</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Start TodoList Dlang">
+      <option name="closed" value="true" />
+      <created>1753925865842</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1753925865842</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Fix JsonDAP error in dub">
+      <option name="closed" value="true" />
+      <created>1754001405684</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1754001405684</updated>
+    </task>
+    <task id="LOCAL-00069" summary="edit not Complete">
+      <option name="closed" value="true" />
+      <created>1754004646503</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1754004646503</updated>
+    </task>
+    <task id="LOCAL-00070" summary="test">
+      <option name="closed" value="true" />
+      <created>1754194251836</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1754194251836</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,10 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start AND END" />
-    <MESSAGE value="START" />
-    <MESSAGE value="check" />
-    <MESSAGE value="END project Simple todolist D &#10;start TodoListJson with C,D,C#" />
     <MESSAGE value="END two" />
     <MESSAGE value="TEST?" />
     <MESSAGE value="start" />
@@ -569,6 +584,10 @@
     <MESSAGE value="Start TodoListCS partTwo" />
     <MESSAGE value="CRUD complete" />
     <MESSAGE value="TodoList Json C# is Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="TodoList Json C# is Complete" />
+    <MESSAGE value="Start TodoList Dlang" />
+    <MESSAGE value="Fix JsonDAP error in dub" />
+    <MESSAGE value="edit not Complete" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
